@@ -47,4 +47,21 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
+server/lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.db
+
+web/pids
+web/logs
+web/results
+web/client/bower_components
+web/node_modules
+web/npm-debug.log
+
 

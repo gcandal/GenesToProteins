@@ -2,15 +2,15 @@
 
 module.exports = {
   server: {
-    host: '0.0.0.0',
+    host: 'localhost',
     port: 8080
   },
   database: {
     dialect: "sqlite",
-    storage: "./proteinDatabase.db",
-  	host: '127.0.0.1',
-    port: 27017,
-    db: 'Cronj',
+    storage: "../../proteinDatabase.db",
+  	host: 'localhost',
+    port: 80,
+    db: 'ProteinGenes.db',
     username: '',
     password: '',
     url : 'mongodb://<user>:<password>@<url>'

@@ -1,17 +1,13 @@
 var Sequelize = require('sequelize'),
     config = require('../config/config');
 
-// initialize database connection
-var sequelize = new Sequelize('proteinDatabase', 'username', 'password', {
-    host: 'localhost',
+var sequelize = new Sequelize(config.database.db, config.database.username, config.database.password, {
+    host: config.database.host,
     dialect: config.database.dialect,
 
-    // SQLite only
-    storage: './proteinDatabase.db'
+    storage: config.database.storage
 });
 
-
-// load models
 var models = [
     'Gene',
     'Protein',
@@ -21,7 +17,6 @@ models.forEach(function(model) {
     module.exports[model] = sequelize.import(__dirname + '/' + model);
 });
 
-// describe relationships
 (function(m) {
     m.Transcript.belongsToMany(m.Gene, {through: 'GeneTranscript'});
     m.Gene.hasMany(m.Transcript, {through: 'GeneTranscript'});
@@ -43,5 +38,4 @@ function syncError(ex) {
     console.log('Error while executing DB sync: '+ ex.message, 'error');
 }
 
-// export connection
 module.exports.sequelize = sequelize;
