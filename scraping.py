@@ -8,15 +8,36 @@ def read_ensemble_gene_ids(filename):
     return [gene.strip() for gene in open(filename)]
 
 
+def get_protein_info(url):
+    protein_page = BeautifulSoup(urllib.urlopen(url).read())
+    name = protein_page.find(id='content-protein').findChildren('h1')[0].getText()
+    organism = protein_page.find(id='content-organism').findChildren('em')[0].getText()
+    pdb_url = 'http://www.rcsb.org/pdb/protein/' + url[url.rfind('/'):]
+
+    return {'name': name, 'uniprot_url': url, 'pdb_url': pdb_url, 'organism': organism}
+
+
 def get_ensemble_transcripts(gene):
     gene_page = BeautifulSoup(urllib.urlopen('http://www.ensembl.org//Gene/Summary?db=core;g=' + gene).read())
     transcripts_table = gene_page.find(id='transcripts_table')
     transcripts_table_rows = transcripts_table.tbody.findChildren('tr')
 
-    return [{'transcript': str(row.findChildren('td')[1].a.getText()),
-             'protein': str(row.findChildren('td')[3].a.getText()),
-             'transcript_url': 'http://www.ensembl.org' + str(row.findChildren('td')[1].a.get('href'))}
-            for row in transcripts_table_rows]
+    result = []
+    for row in transcripts_table_rows:
+        # print row
+        transcript = str(row.findChildren('td')[1].a.getText())
+        protein = row.findChildren('td')[6].a
+        if protein:
+            protein = get_protein_info(str(protein.get('href')))
+        else:
+            protein = {}
+        transcript_url = 'http://www.ensembl.org' + str(row.findChildren('td')[1].a.get('href'))
+
+        result.append({'transcript': transcript,
+                       'protein': protein,
+                       'transcript_url': transcript_url})
+
+    return result
 
 
 def get_ensemble_transcripts_for_list(gene_list):
@@ -61,12 +82,27 @@ def add_three_prime_proteins_for_list(genes):
         gene['three_prime_proteins'] = get_proteins_for_three_prime(gene['three_prime'])
 
 
+def move_organism_up(genes):
+    for gene in genes:
+        for transcript in gene['transcripts']:
+            if 'protein' in transcript:
+                protein = transcript['protein']
+                if 'organism' in protein:
+                    organism = protein['organism']
+
+                    gene['organism'] = organism
+                    protein.pop('organism')
+
+
 def full_process(filename):
     gene_ids = read_ensemble_gene_ids(filename)
+    # gene_ids = [gene_ids[0]]
     print 'Got IDs'
 
     genes = get_ensemble_transcripts_for_list(gene_ids)
     print 'Got Transcripts'
+
+    move_organism_up(genes)
 
     get_ensemble_three_prime_for_list(genes)
     print 'Got ThreePrimes'
@@ -76,12 +112,12 @@ def full_process(filename):
 
     return genes
 
+
 final = full_process('genes.ensemble')
-print json.dumps(final)
-'''
-final = full_process('genes.ensemble')
-print json.dumps(final)
-'''
+# print json.dumps(final)
+with open('teste.json', 'w') as data_output:
+    data_output.write(json.dumps(final))
+    data_output.close()
 
 '''
 with open('teste.json') as data_file:
