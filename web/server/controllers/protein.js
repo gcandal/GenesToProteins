@@ -1,6 +1,3 @@
-/**
- * Created by diogo on 13-05-2015.
- */
 'use strict';
 
 var Joi = require('joi'),
@@ -8,24 +5,24 @@ var Joi = require('joi'),
     Models = require('../models/'),
     Protein = Models.protein;
 
-exports.getAll = {
+exports.search = {
     handler: function (request, reply) {
-        User.find({}, function (err, user) {
-            if (!err) {
-                return reply(user);
+        Protein.findAll({ where:  ["proteinID like \'%" + request.params.geneId + "%\'"]}).then(function (gene) {
+            if (gene != null) {
+                return reply(gene);
             }
-            return reply(Boom.badImplementation(err)); // 500 error
+            return reply(Boom.badImplementation()); // 500 error
         });
     }
 };
 
 exports.getOne = {
     handler: function (request, reply) {
-        User.findOne({ 'userId': request.params.userId }, function (err, user) {
-            if (!err) {
-                return reply(user);
+        Protein.find(request.params.geneId).then(function (gene) {
+            if (gene != null) {
+                return reply(gene);
             }
-            return reply(Boom.badImplementation(err)); // 500 error
+            return reply(Boom.badImplementation()); // 500 error
         });
     }
 };
