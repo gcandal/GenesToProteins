@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             primaryKey: true
         },
-        species: {
+        organism: {
             type: DataTypes.STRING
         },
 
