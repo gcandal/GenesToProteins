@@ -9,7 +9,6 @@ module.exports = function(sequelize, DataTypes) {
         organism: {
             type: DataTypes.STRING
         },
-
         threePrime: {
             type: DataTypes.STRING
         }

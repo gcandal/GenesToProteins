@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(sequelize, DataTypes) {
-    return sequelize.define('Gene', {
+    return sequelize.define('Transcript', {
         transcriptId: {
             type: DataTypes.STRING,
             primaryKey: true

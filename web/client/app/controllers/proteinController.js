@@ -1,20 +1,11 @@
-app.controller('proteinController', [ '$scope', '$http','$location',
-		function($scope, $http, $location){
+app.controller('proteinController', [ '$scope', '$http','$location','$routeParams',
+		function($scope, $http, $location, $routeParams){
 
-
-
-		$scope.uploadfile = function(){
-			$http.post('/upload',$scope.file).then(function(data){
-				console.log('success');
-				// $scope.sectionList = data;
-			}).catch(function(error){
-				console.log("error" + error);
-			})
-		};
-
-		$scope.onFileSelect = function($files){
-			$scope.file = $files[0].name; 
-			console.log($scope.file);
-		}
+		$http.get('/api/protein/' + $routeParams.proteinId).then(function(data){
+			console.log(data);
+			// $scope.sectionList = data;
+		}).catch(function(error){
+			console.log("error" + error);
+		})
 	}]
 );
