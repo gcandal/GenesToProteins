@@ -1,7 +1,8 @@
 'use strict';
 
 var app = angular.module("app", ['ngRoute','ngResource'])
-	.config(function($routeProvider) {
+	.config(function($routeProvider, $locationProvider) {
+		//$locationProvider.html5Mode(true);
 	    $routeProvider
 				.when('/',
 					 {templateUrl: 'app/views/search.html'},
