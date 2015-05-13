@@ -4,7 +4,6 @@ var Sequelize = require('sequelize'),
 var sequelize = new Sequelize(config.database.db, config.database.username, config.database.password, {
     host: config.database.host,
     dialect: config.database.dialect,
-
     storage: config.database.storage
 });
 
