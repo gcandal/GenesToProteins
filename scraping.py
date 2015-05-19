@@ -3,6 +3,13 @@ import urllib
 import urllib2
 import json
 
+'''
+informacao sobre os sites/diminiros :  campo "Sites" na Uniprot
+Os termso GO (Gene Ontology)
+Enzyme and pathway databases
+campos da tabela  "Family Domains"
+'''
+
 
 def read_ensemble_gene_ids(filename):
     return [gene.strip() for gene in open(filename)]
@@ -10,11 +17,71 @@ def read_ensemble_gene_ids(filename):
 
 def get_protein_info(url):
     protein_page = BeautifulSoup(urllib.urlopen(url).read())
-    name = protein_page.find(id='content-protein').findChildren('h1')[0].getText()
-    organism = protein_page.find(id='content-organism').findChildren('em')[0].getText()
-    pdb_url = 'http://www.rcsb.org/pdb/protein/' + url[url.rfind('/'):]
+    function = protein_page.find(id='function')
+    annotations = []
+    keywords = []
 
-    return {'name': name, 'uniprot_url': url, 'pdb_url': pdb_url, 'organism': organism}
+    if function:
+        annotations = function.findAll('div', {"class": "annotation"})
+        keywords = function.findChildren('span', recursive=False)
+
+    print url
+
+    return {'name': protein_page.find(id='content-protein').findChildren('h1')[0].getText(),
+            'uniprot_url': url,
+            'pdb_url': 'http://www.rcsb.org/pdb/protein' + url[url.rfind('/'):],
+            'organism': protein_page.find(id='content-organism').findChildren('em')[0].getText(),
+            # 'catalytic_activity': annotations[1].span.find(text=True, recursive=False) if len(annotations) > 2 else [],
+            'keywords_molecular_function': [keyword.getText() for keyword in keywords[0].findChildren('a')]
+            if len(keywords) > 2 else [],
+            'keywords_biological_process': [keyword.getText() for keyword in keywords[1].findChildren('a')]
+            if len(keywords) > 2 else [],
+            'keywords_ligand': [keyword.getText() for keyword in keywords[2].findChildren('a')]
+            if len(keywords) > 2 else [],
+            # 'pathway': annotations[2].a.getText() if len(annotations) > 2 else [],
+            'interactions': parse_table_interactions(protein_page.find(id="interaction")),
+            'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy"))}
+
+
+def parse_table_names_and_taxonomy(names_and_taxonomy_table):
+    if not names_and_taxonomy_table:
+        return {}
+
+    table = names_and_taxonomy_table.findChildren('table')[0]
+    trs = table.findChildren('tr')
+
+    if len(trs) < 6:
+        offset = -1
+    else:
+        offset = 0
+
+    return {'protein_names': trs[0 + offset].findChildren('td')[1].getText(),
+            'organism': trs[2 + offset].findChildren('td')[1].getText(),
+            'taxonomic_identifier': trs[3 + offset].findChildren('td')[1].findChildren('a')[0].getText(),
+            'taxonomic_lineage': [taxonomy.getText() for taxonomy in
+                                  trs[4 + offset].findChildren('td')[1].findChildren('a', recursive=False)],
+            'proteomes': [proteome.getText() for proteome in trs[5 + offset].findChildren('td')[1].findChildren('a')]
+            }
+
+
+def parse_table_interactions(interactions_table):
+    if not interactions_table:
+        return {}
+
+    table = interactions_table.findChildren('table')
+
+    if not table:
+        return {}
+
+    table = table[0]
+    trs = table.findChildren('tr')
+    results = []
+
+    for tr in trs:
+        tds = tr.findChildren('td')
+        results.append((tds[0].span.find(text=True, recursive=False), tds[1].getText()))
+
+    return results
 
 
 def get_ensemble_transcripts(gene):
