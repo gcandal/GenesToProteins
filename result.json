@@ -3,38 +3,24 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "95&nbsp;&ndash;&nbsp;95",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Glycyl thioester intermediate"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Ubiquitin-conjugating enzyme E2 S(EC:6.3.2.19)Alternative name(s):Ubiquitin carrier protein SUbiquitin-protein ligase S",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Ubiquitin-conjugating enzyme E2 S(EC:6.3.2.19)\nAlternative name(s):Ubiquitin carrier protein SUbiquitin-protein ligase ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B5DFI8",
           "name": "Ubiquitin-conjugating enzyme E2 S",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000022977."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000022977."],
           "keywords_molecular_function": ["Ligase"],
           "keywords_ligand": [
             "ATP-binding",
@@ -66,38 +52,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Isochorismatase domain-containing protein 2, mitochondrial",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Isochorismatase domain-containing protein 2, mitochondria",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U3Z3",
           "name": "Isochorismatase domain-containing protein 2, mitochondrial",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000022621."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000022621."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -122,27 +87,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027677Proteomes:UP000002494",
-            "protein_names": "Submitted name:Glycogen synthase kinase-3 alphaImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027677",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Glycogen synthase kinase-3 alpha",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -167,27 +116,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000028588Proteomes:UP000002494",
-            "protein_names": "Submitted name:Cytohesin-2Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000028588",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Cytohesin-2",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -216,27 +149,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000024850Proteomes:UP000002494",
-            "protein_names": "Submitted name:Tripartite motif protein 3, isoform CRA_aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM18030.1Submitted name:Tripartite motif-containing protein 3Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000024850",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Tripartite motif protein 3, isoform CRA_a",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -266,27 +183,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000023741Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Ctr9Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000023741Submitted name:SH2 domain binding protein 1 (Tetratricopeptide repeat containing), isoform CRA_aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM17845.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Ctr9",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -324,27 +225,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027630Proteomes:UP000002494",
-            "protein_names": "Submitted name:Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_cImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM17166.1Submitted name:Protein Inpp5fImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027630",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -373,38 +258,42 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "302&nbsp;&ndash;&nbsp;302",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "334&nbsp;&ndash;&nbsp;334",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Phosphocysteine intermediate"
+            },
+            {
+              "positions": "378&nbsp;&ndash;&nbsp;378",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "629&nbsp;&ndash;&nbsp;629",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Phosphocysteine intermediate"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilon",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
           "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": [
-            [
-              "IntAct",
-              "B2GV87.1 interaction."
-            ]
-          ],
+          "interactions": ["IntAct - B2GV87.1 interaction."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -415,38 +304,42 @@
       },
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "302&nbsp;&ndash;&nbsp;302",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "334&nbsp;&ndash;&nbsp;334",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Phosphocysteine intermediate"
+            },
+            {
+              "positions": "378&nbsp;&ndash;&nbsp;378",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "629&nbsp;&ndash;&nbsp;629",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Phosphocysteine intermediate"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilon",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
           "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": [
-            [
-              "IntAct",
-              "B2GV87.1 interaction."
-            ]
-          ],
+          "interactions": ["IntAct - B2GV87.1 interaction."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -473,45 +366,20 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoformAlternative name(s):PP2A subunit B isoform B55-deltaPP2A subunit B isoform PR55-deltaPP2A subunit B isoform R2-deltaPP2A subunit B isoform delta",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform\nAlternative name(s):PP2A subunit B isoform B55-deltaPP2A subunit B isoform PR55-deltaPP2A subunit B isoform R2-deltaPP2A subunit B isoform delt",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P56932",
           "name": "Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform",
           "interactions": [
-            [
-              "IntAct",
-              "P56932.1 interaction."
-            ],
-            [
-              "MINT",
-              "MINT-4568514."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000023139."
-            ]
+            "IntAct - P56932.1 interaction.",
+            "MINT - MINT-4568514.",
+            "STRING - 10116.ENSRNOP00000023139."
           ],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
@@ -523,27 +391,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000055280Proteomes:UP000002494",
-            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit BUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU331113",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit BUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU33111",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -577,27 +429,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI66754.1",
-            "protein_names": "Submitted name:Putative uncharacterized protein RGD1305793Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL94357.1Submitted name:RGD1305793 proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI66754.1Submitted name:WW domain-binding protein 1-likeImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027118",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Putative uncharacterized protein RGD1305793",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -627,27 +463,42 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "21&nbsp;&ndash;&nbsp;21",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Nucleophile"
+            },
+            {
+              "positions": "21&nbsp;&ndash;&nbsp;21",
+              "length": "1",
+              "feature_key": "Metal binding",
+              "description": "Magnesium"
+            },
+            {
+              "positions": "23&nbsp;&ndash;&nbsp;23",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Proton donor"
+            },
+            {
+              "positions": "23&nbsp;&ndash;&nbsp;23",
+              "length": "1",
+              "feature_key": "Metal binding",
+              "description": "Magnesium; via carbonyl oxygen"
+            },
+            {
+              "positions": "320&nbsp;&ndash;&nbsp;320",
+              "length": "1",
+              "feature_key": "Metal binding",
+              "description": "Magnesium"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027351Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Nt5c2Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027351",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Nt5c2",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -676,27 +527,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000013845Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Fam45aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000013845Submitted name:Similar to RIKEN cDNA 1810055E12 (Predicted), isoform CRA_bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL94581.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Fam45a",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -726,27 +561,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000017666Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Ttc33Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000017666Submitted name:Similar to osmosis responsive factor (Predicted), isoform CRA_aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL75722.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Ttc33",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -777,27 +596,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000032531Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein RGD1306502Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000032531Submitted name:Putative uncharacterized protein RGD1306502_predictedImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL82949.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein RGD1306502",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -830,27 +633,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000059805Proteomes:UP000002494",
-            "protein_names": "Recommended name:DCN1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU410713Alternative name(s):Defective in cullin neddylation protein 1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU410713",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Recommended name:DCN1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU410713\nAlternative name(s):Defective in cullin neddylation protein 1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU41071",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -884,27 +671,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000062977Proteomes:UP000002494",
-            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome 2",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -937,27 +708,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000065357Proteomes:UP000002494",
-            "protein_names": "Submitted name:La-related protein 7Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000065357",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -974,27 +729,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000067115Proteomes:UP000002494",
-            "protein_names": "Submitted name:La-related protein 7Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000067115",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1024,27 +763,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000006549Proteomes:UP000002494",
-            "protein_names": "Submitted name:Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM00427.1Submitted name:Protein Prpf40aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000006549",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1073,27 +796,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000008986Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Pex16Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000008986",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Pex16",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1125,27 +832,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000036667Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein LOC100362142Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000036667",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein LOC100362142",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1178,27 +869,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000015232Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Ube3cImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000015232",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Ube3c",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1229,27 +904,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000010521Proteomes:UP000002494",
-            "protein_names": "Submitted name:ReelinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL99407.1Ensembl:ENSRNOP00000010521",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1266,27 +925,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000010521Proteomes:UP000002494",
-            "protein_names": "Submitted name:ReelinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL99407.1Ensembl:ENSRNOP00000010521",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1316,38 +959,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:V-type proton ATPase subunit e 2Short name:V-ATPase subunit e 2Alternative name(s):Vacuolar proton pump subunit e 2",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:V-type proton ATPase subunit e 2Short name:V-ATPase subunit e 2\nAlternative name(s):Vacuolar proton pump subunit e ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5EB76",
           "name": "V-type proton ATPase subunit e 2",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000010853."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000010853."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -1372,27 +994,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000037980Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Exoc6bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000037980",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Exoc6b",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1423,27 +1029,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000060201Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Rb1cc1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000060201Submitted name:RB1-inducible coiled-coil 1 (Predicted)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM11576.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Rb1cc1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1476,38 +1066,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH62241.1",
-            "protein_names": "Submitted name:Protein Creb3Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000061486Submitted name:cAMP responsive element binding protein 3Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH62241.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Creb3",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P6G3",
           "name": "Protein Creb3",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000022132."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000022132."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -1526,27 +1095,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000062982Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Fam76aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000062982",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Fam76a",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1575,38 +1128,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2BAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein 2",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
           "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000052521."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000052521."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -1617,38 +1149,17 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2BAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein 2",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
           "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000052521."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000052521."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -1676,38 +1187,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:DnaJ homolog subfamily C member 27Alternative name(s):Rab and DnaJ domain-containing protein",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:DnaJ homolog subfamily C member 27\nAlternative name(s):Rab and DnaJ domain-containing protei",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6IML7",
           "name": "DnaJ homolog subfamily C member 27",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000049266."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000049266."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -1732,27 +1222,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000060440Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Nek9Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000060440",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Nek9",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1783,27 +1257,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH72540.1",
-            "protein_names": "Submitted name:Acyl-CoA thioesterase 2Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH72540.1Submitted name:Acyl-coenzyme A thioesterase 2, mitochondrialImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000013515Submitted name:RCG20653Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL81468.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Acyl-CoA thioesterase 2",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1834,27 +1292,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI61971.1",
-            "protein_names": "Submitted name:LOC362840 (Predicted), isoform CRA_cImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL89371.1Submitted name:Protein R3hdm4Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000015869Submitted name:RGD1307067 proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI61971.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:LOC362840 (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1885,27 +1327,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000030415Proteomes:UP000002494",
-            "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653)",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1922,27 +1348,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000032680Proteomes:UP000002494",
-            "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653)",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -1974,38 +1384,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI66468.1",
-            "protein_names": "Submitted name:Protein Slc35e3Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000031609Submitted name:Slc35e3 proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI66468.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Slc35e3",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GUZ8",
           "name": "Protein Slc35e3",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000031609."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000031609."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -2030,38 +1419,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Repressor of RNA polymerase III transcription MAF1 homolog",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Repressor of RNA polymerase III transcription MAF1 homolo",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5XIH0",
           "name": "Repressor of RNA polymerase III transcription MAF1 homolog",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000018240."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000018240."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -2090,41 +1458,26 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "520&nbsp;&ndash;&nbsp;520",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Sequence Analysis"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2Alternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA9",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
           "name": "85/88 kDa calcium-independent phospholipase A2",
           "interactions": [
-            [
-              "IntAct",
-              "P97570.1 interaction."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000017104."
-            ]
+            "IntAct - P97570.1 interaction.",
+            "STRING - 10116.ENSRNOP00000017104."
           ],
           "keywords_molecular_function": ["Hydrolase"],
           "keywords_ligand": ["Calmodulin-binding"],
@@ -2140,41 +1493,26 @@
       },
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "520&nbsp;&ndash;&nbsp;520",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Sequence Analysis"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2Alternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA9",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
           "name": "85/88 kDa calcium-independent phospholipase A2",
           "interactions": [
-            [
-              "IntAct",
-              "P97570.1 interaction."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000017104."
-            ]
+            "IntAct - P97570.1 interaction.",
+            "STRING - 10116.ENSRNOP00000017104."
           ],
           "keywords_molecular_function": ["Hydrolase"],
           "keywords_ligand": ["Calmodulin-binding"],
@@ -2202,13 +1540,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "10116",
-              "NCBI"
-            ],
-            "organism": "Name:Atg4dImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI68141.1RGD:1596392",
-            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattus",
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Atg4d",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
             "proteomes": [
               "cellular organisms",
@@ -2266,27 +1602,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000012257Proteomes:UP000002494",
-            "protein_names": "Submitted name:Serine/threonine-protein kinase ICKImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000012257",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Serine/threonine-protein kinase ICK",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2317,38 +1637,60 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "513&nbsp;&ndash;&nbsp;513",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate; via carbonyl oxygen"
+            },
+            {
+              "positions": "539&nbsp;&ndash;&nbsp;539",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "FAD"
+            },
+            {
+              "positions": "656&nbsp;&ndash;&nbsp;656",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "FAD"
+            },
+            {
+              "positions": "656&nbsp;&ndash;&nbsp;656",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "FAD; shared with dimeric partner"
+            },
+            {
+              "positions": "726&nbsp;&ndash;&nbsp;726",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "FAD"
+            },
+            {
+              "positions": "754&nbsp;&ndash;&nbsp;754",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate; via amide nitrogen"
+            },
+            {
+              "positions": "757&nbsp;&ndash;&nbsp;757",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "FAD"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Acyl-CoA dehydrogenase family member 11(EC:1.3.99.-)Short name:ACAD-11",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Acyl-CoA dehydrogenase family member 11(EC:1.3.99.-)Short name:ACAD-1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B3DMA2",
           "name": "Acyl-CoA dehydrogenase family member 11",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000014636."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000014636."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -2377,38 +1719,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI61976.1",
-            "protein_names": "Submitted name:Ctdsp1 proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI61976.1Submitted name:Protein Ctdsp1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000020646Submitted name:RCG23761Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL75354.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Ctdsp1 protein",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B1WC24",
           "name": "Ctdsp1 protein",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000020646."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000020646."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -2431,27 +1752,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000066658Proteomes:UP000002494",
-            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome 10",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome 1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2481,27 +1786,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000035280Proteomes:UP000002494",
-            "protein_names": "Recommended name:Golgi apparatus membrane protein TVP23 homologUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU361206",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Recommended name:Golgi apparatus membrane protein TVP23 homologUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU36120",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2530,13 +1819,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "10116",
-              "NCBI"
-            ],
-            "organism": "Name:Mgrn1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiRGD:1311862Synonyms:mgrn1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:CCC55240.1,RGD1311862Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL96278.1ORF Names:rCG_49858Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL96278.1",
-            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattus",
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Mgrn1",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
             "proteomes": [
               "cellular organisms",
@@ -2595,27 +1882,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000038605Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Zfp213Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000038605Submitted name:RCG34646, isoform CRA_bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM03750.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Zfp213",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2644,27 +1915,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000005653Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Spag7Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000005653Submitted name:Sperm associated antigen 7 (Predicted)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM05045.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Spag7",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2697,41 +1952,19 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Nucleolar transcription factor 1Alternative name(s):Upstream-binding factor 1Short name:UBF-1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
           "interactions": [
-            [
-              "DIP",
-              "DIP-60265N."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000063740."
-            ]
+            "DIP - DIP-60265N.",
+            "STRING - 10116.ENSRNOP00000063740."
           ],
           "keywords_molecular_function": ["Activator"],
           "keywords_ligand": ["DNA-binding"],
@@ -2746,41 +1979,19 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Nucleolar transcription factor 1Alternative name(s):Upstream-binding factor 1Short name:UBF-1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
           "interactions": [
-            [
-              "DIP",
-              "DIP-60265N."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000063740."
-            ]
+            "DIP - DIP-60265N.",
+            "STRING - 10116.ENSRNOP00000063740."
           ],
           "keywords_molecular_function": ["Activator"],
           "keywords_ligand": ["DNA-binding"],
@@ -2809,45 +2020,45 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "202&nbsp;&ndash;&nbsp;202",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "cAMP 1"
+            },
+            {
+              "positions": "211&nbsp;&ndash;&nbsp;211",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "cAMP 1"
+            },
+            {
+              "positions": "326&nbsp;&ndash;&nbsp;326",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "cAMP 2"
+            },
+            {
+              "positions": "335&nbsp;&ndash;&nbsp;335",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "cAMP 2"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:cAMP-dependent protein kinase type I-alpha regulatory subunitCleaved into the following chain:cAMP-dependent protein kinase type I-alpha regulatory subunit, N-terminally processed",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:cAMP-dependent protein kinase type I-alpha regulatory subunitCleaved into the following chain:cAMP-dependent protein kinase type I-alpha regulatory subunit, N-terminally processe",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P09456",
           "name": "cAMP-dependent protein kinase type I-alpha regulatory subunit",
           "interactions": [
-            [
-              "IntAct",
-              "P09456.1 interaction."
-            ],
-            [
-              "MINT",
-              "MINT-1775716."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000061445."
-            ]
+            "IntAct - P09456.1 interaction.",
+            "MINT - MINT-1775716.",
+            "STRING - 10116.ENSRNOP00000061445."
           ],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
@@ -2871,27 +2082,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH99187.1",
-            "protein_names": "Submitted name:Hypothetical LOC287798Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH99187.1Submitted name:Protein MGC95210Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000029802",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Hypothetical LOC287798",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -2921,38 +2116,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein Wdr45bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000051801Submitted name:WDR45-like proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:CAJ57997.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Submitted name:Protein Wdr45b",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q2MCP5",
           "name": "Protein Wdr45b",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000051801."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000051801."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -2979,38 +2153,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH62389.1",
-            "protein_names": "Submitted name:Protein C2cd2Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000002209Submitted name:Similar to RIKEN cDNA 5830404H04, isoform CRA_bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM10979.1Submitted name:Uncharacterized proteinImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH62389.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein C2cd2",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P691",
           "name": "Protein C2cd2",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000002209."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000002209."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3034,27 +2187,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001928Proteomes:UP000002494",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001928",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3071,45 +2208,20 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Homeobox protein cut-like 1Alternative name(s):CCAAT displacement proteinShort name:CDPCDP2Homeobox protein cux-1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Homeobox protein cut-like 1\nAlternative name(s):CCAAT displacement proteinShort name:CDPCDP2Homeobox protein cux-",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P53565",
           "name": "Homeobox protein cut-like 1",
           "interactions": [
-            [
-              "IntAct",
-              "P53565.1 interaction."
-            ],
-            [
-              "MINT",
-              "MINT-4573965."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000001928."
-            ]
+            "IntAct - P53565.1 interaction.",
+            "MINT - MINT-4573965.",
+            "STRING - 10116.ENSRNOP00000001928."
           ],
           "keywords_molecular_function": [
             "Developmental protein",
@@ -3127,27 +2239,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000064377Proteomes:UP000002494",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000064377",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3164,27 +2260,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000040645Proteomes:UP000002494",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000040645",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3225,27 +2305,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001279Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Frg1l1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001279Submitted name:RCG63649Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM13544.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Frg1l1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3277,38 +2341,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Pleckstrin homology-like domain family A member 3Alternative name(s):TDAG51/Ipl homolog 1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Pleckstrin homology-like domain family A member 3\nAlternative name(s):TDAG51/Ipl homolog ",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5PQT7",
           "name": "Pleckstrin homology-like domain family A member 3",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000011999."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000011999."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3333,27 +2376,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000063896Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Kifap3Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000063896",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Kifap3",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3390,27 +2417,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:MORF4 family-associated protein 1Alternative name(s):T-cell activation protein-related protein",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:MORF4 family-associated protein 1\nAlternative name(s):T-cell activation protein-related protei",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3440,27 +2451,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000016288Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Supt16hImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000016288Submitted name:Suppressor of Ty 16 homolog (S. cerevisiae) (Predicted)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL88471.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Supt16h",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3492,38 +2487,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:ER membrane protein complex subunit 9Alternative name(s):Protein FAM158A",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:ER membrane protein complex subunit 9\nAlternative name(s):Protein FAM158",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U1W7",
           "name": "ER membrane protein complex subunit 9",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000026001."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000026001."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3553,41 +2527,19 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Small conductance calcium-activated potassium channel protein 1Short name:SK1Short name:SKCa 1Short name:SKCa1Alternative name(s):KCa2.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Small conductance calcium-activated potassium channel protein 1Short name:SK1Short name:SKCa 1Short name:SKCa1\nAlternative name(s):KCa2.",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P70606",
           "name": "Small conductance calcium-activated potassium channel protein 1",
           "interactions": [
-            [
-              "IntAct",
-              "P70606.1 interaction."
-            ],
-            [
-              "MINT",
-              "MINT-7138580."
-            ]
+            "IntAct - P70606.1 interaction.",
+            "MINT - MINT-7138580."
           ],
           "keywords_molecular_function": ["Ion channel"],
           "keywords_ligand": ["Calmodulin-binding"],
@@ -3618,27 +2570,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027943Proteomes:UP000002494",
-            "protein_names": "Submitted name:GATA zinc finger domain containing 2AImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL90638.1Submitted name:Protein Gatad2aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000027943",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:GATA zinc finger domain containing 2A",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3666,38 +2602,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAI61809.1Submitted name:1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta), isoform CRA_aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM09028.1Submitted name:Protein Agpat6Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000024392",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Submitted name:1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0ZFS7",
           "name": "1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000024392."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000024392."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3720,27 +2635,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000020634Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Dip2cImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000020634Submitted name:RCG30561Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDM06967.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Dip2c",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3770,27 +2669,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000017187Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Cables1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000017187",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Cables1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -3819,38 +2702,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000038436Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Ss18Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000038436",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Ss18",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D4ABC5",
           "name": "Protein Ss18",
-          "interactions": [
-            [
-              "IntAct",
-              "D4ABC5.1 interaction."
-            ]
-          ],
+          "interactions": ["IntAct - D4ABC5.1 interaction."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3874,13 +2736,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "10116",
-              "NCBI"
-            ],
-            "organism": "Name:Dnajc18Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:ABA39885.1RGD:1310237ORF Names:rCG_49240Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL76274.1",
-            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattus",
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Dnajc18",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
             "proteomes": [
               "cellular organisms",
@@ -3916,12 +2776,7 @@
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0H8V1",
           "name": "DNAJC18",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000027194."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000027194."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -3943,41 +2798,80 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "21&nbsp;&ndash;&nbsp;21",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "NAD; via amide nitrogen"
+            },
+            {
+              "positions": "40&nbsp;&ndash;&nbsp;40",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "NAD"
+            },
+            {
+              "positions": "99&nbsp;&ndash;&nbsp;99",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "NAD; via carbonyl oxygen"
+            },
+            {
+              "positions": "151&nbsp;&ndash;&nbsp;151",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "164&nbsp;&ndash;&nbsp;164",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Proton acceptor"
+            },
+            {
+              "positions": "434&nbsp;&ndash;&nbsp;434",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "(3R)-3-hydroxydecanoyl-CoA"
+            },
+            {
+              "positions": "532&nbsp;&ndash;&nbsp;532",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "(3R)-3-hydroxydecanoyl-CoA; via amide nitrogen"
+            },
+            {
+              "positions": "562&nbsp;&ndash;&nbsp;562",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "(3R)-3-hydroxydecanoyl-CoA; via carbonyl oxygen"
+            },
+            {
+              "positions": "705&nbsp;&ndash;&nbsp;705",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            },
+            {
+              "positions": "723&nbsp;&ndash;&nbsp;723",
+              "length": "1",
+              "feature_key": "Binding site",
+              "description": "Substrate"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Peroxisomal multifunctional enzyme type 2Short name:MFE-2Alternative name(s):17-beta-hydroxysteroid dehydrogenase 4Short name:17-beta-HSD 4D-bifunctional proteinShort name:DBPMultifunctional protein 2Short name:MPF-2Cleaved into the following 2 chains:(3R)-hydroxyacyl-CoA dehydrogenase(EC:1.1.1.n12)Enoyl-CoA hydratase 2(EC:4.2.1.107,EC:4.2.1.119)Alternative name(s):3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratase",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Peroxisomal multifunctional enzyme type 2Short name:MFE-2\nAlternative name(s):17-beta-hydroxysteroid dehydrogenase 4Short name:17-beta-HSD 4D-bifunctional proteinShort name:DBPMultifunctional protein 2Short name:MPF-2Cleaved into the following 2 chains:(3R)-hydroxyacyl-CoA dehydrogenase(EC:1.1.1.n12)Enoyl-CoA hydratase 2(EC:4.2.1.107,EC:4.2.1.119)\nAlternative name(s):3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratas",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97852",
           "name": "Peroxisomal multifunctional enzyme type 2",
           "interactions": [
-            [
-              "IntAct",
-              "P97852.1 interaction."
-            ],
-            [
-              "STRING",
-              "10116.ENSRNOP00000043755."
-            ]
+            "IntAct - P97852.1 interaction.",
+            "STRING - 10116.ENSRNOP00000043755."
           ],
           "keywords_molecular_function": [
             "Isomerase",
@@ -4009,41 +2903,26 @@
     "transcripts": [
       {
         "protein": {
+          "sites": [
+            {
+              "positions": "120&nbsp;&ndash;&nbsp;121",
+              "length": "2",
+              "feature_key": "Site",
+              "description": "Cleavage; by ATG4B"
+            }
+          ],
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Microtubule-associated proteins 1A/1B light chain 3BAlternative name(s):Autophagy-related protein LC3 BAutophagy-related ubiquitin-like modifier LC3 BMAP1 light chain 3-like protein 2MAP1A/MAP1B light chain 3 BShort name:MAP1A/MAP1B LC3 BMicrotubule-associated protein 1 light chain 3 beta",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Microtubule-associated proteins 1A/1B light chain 3B\nAlternative name(s):Autophagy-related protein LC3 BAutophagy-related ubiquitin-like modifier LC3 BMAP1 light chain 3-like protein 2MAP1A/MAP1B light chain 3 BShort name:MAP1A/MAP1B LC3 BMicrotubule-associated protein 1 light chain 3 bet",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q62625",
           "name": "Microtubule-associated proteins 1A/1B light chain 3B",
           "interactions": [
-            [
-              "BioGrid",
-              "249213.3 interactions."
-            ],
-            [
-              "IntAct",
-              "Q62625.7 interactions."
-            ]
+            "BioGrid - 249213.3 interactions.",
+            "IntAct - Q62625.7 interactions."
           ],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
@@ -4055,27 +2934,11 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein LOC100363716Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000049421Submitted name:Zbs559Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAP78764.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Submitted name:Protein LOC100363716",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -4105,38 +2968,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18Alternative name(s):Nuclear protein NHN1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000048376."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000048376."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -4147,38 +2989,17 @@
       },
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18Alternative name(s):Nuclear protein NHN1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000048376."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000048376."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -4204,27 +3025,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001011Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein Znrd1as1Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000001011",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Znrd1as1",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
@@ -4254,38 +3059,17 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH79228.1",
-            "protein_names": "Submitted name:Protein Sar1aImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000000673Submitted name:SAR1 gene homolog A (S. cerevisiae), isoform CRA_bImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL93009.1Submitted name:SAR1 homolog A (S. cerevisiae)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:AAH79228.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Sar1a",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6AY18",
           "name": "Protein Sar1a",
-          "interactions": [
-            [
-              "STRING",
-              "10116.ENSRNOP00000000673."
-            ]
-          ],
+          "interactions": ["STRING - 10116.ENSRNOP00000000673."],
           "keywords_molecular_function": [],
           "keywords_ligand": [],
           "keywords_biological_process": [],
@@ -4308,27 +3092,11 @@
     "transcripts": [
       {
         "protein": {
+          "sites": {},
           "names_and_taxonomy": {
-            "taxonomic_lineage": [
-              "Eukaryota",
-              "Metazoa",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Euteleostomi",
-              "Mammalia",
-              "Eutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ],
-            "organism": "Rattus norvegicus (Rat)Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000000444Proteomes:UP000002494",
-            "protein_names": "Submitted name:Protein LOC606294Imported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEnsembl:ENSRNOP00000000444Submitted name:RCG21965, isoform CRA_cImported&#xd;\n&lt;p>Information which has been imported from another database using automatic procedures.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000313\">More\u2026&lt;/a>&lt;/p>Automatic assertion inferred from database entriesiEMBL:EDL92969.1",
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein LOC606294",
             "taxonomic_identifier": "10116",
             "proteomes": ["UP000002494"]
           },

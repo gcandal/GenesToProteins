@@ -4,8 +4,6 @@ import urllib2
 import json
 
 '''
-informacao sobre os sites/diminiros :  campo "Sites" na Uniprot
-Os termso GO (Gene Ontology)
 Enzyme and pathway databases
 campos da tabela  "Family Domains"
 '''
@@ -20,10 +18,12 @@ def get_protein_info(url):
     function = protein_page.find(id='function')
     annotations = []
     keywords = []
+    sites = {}
 
     if function:
         annotations = function.findAll('div', {"class": "annotation"})
         keywords = function.findChildren('span', recursive=False)
+        sites = function.find(id='sitesAnno_section')
 
     print url
 
@@ -40,7 +40,8 @@ def get_protein_info(url):
             if len(keywords) > 2 else [],
             # 'pathway': annotations[2].a.getText() if len(annotations) > 2 else [],
             'interactions': parse_table_interactions(protein_page.find(id="interaction")),
-            'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy"))}
+            'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy")),
+            'sites': parse_sites(sites)}
 
 
 def parse_table_names_and_taxonomy(names_and_taxonomy_table):
@@ -55,11 +56,17 @@ def parse_table_names_and_taxonomy(names_and_taxonomy_table):
     else:
         offset = 0
 
-    return {'protein_names': trs[0 + offset].findChildren('td')[1].getText(),
-            'organism': trs[2 + offset].findChildren('td')[1].getText(),
+    protein_names = trs[0 + offset].findChildren('td')[1].getText().replace(
+        "Alternative", "\nAlternative").replace("Synon", "\nSynon")
+
+    organism = trs[2 + offset].findChildren('td')[1].getText()
+
+    return {'protein_names': protein_names[:protein_names.find("Imported")],
+            'organism': organism[:organism.find("Imported")],
             'taxonomic_identifier': trs[3 + offset].findChildren('td')[1].findChildren('a')[0].getText(),
-            'taxonomic_lineage': [taxonomy.getText() for taxonomy in
-                                  trs[4 + offset].findChildren('td')[1].findChildren('a', recursive=False)],
+            'taxonomic_lineage': " > ".join(
+                [taxonomy.getText() for taxonomy in
+                 trs[4 + offset].findChildren('td')[1].findChildren('a', recursive=False)]),
             'proteomes': [proteome.getText() for proteome in trs[5 + offset].findChildren('td')[1].findChildren('a')]
             }
 
@@ -79,7 +86,26 @@ def parse_table_interactions(interactions_table):
 
     for tr in trs:
         tds = tr.findChildren('td')
-        results.append((tds[0].span.find(text=True, recursive=False), tds[1].getText()))
+        results.append(tds[0].span.find(text=True, recursive=False) + " - " + tds[1].getText())
+
+    return results
+
+
+def parse_sites(sites_table):
+    if not sites_table:
+        return {}
+
+    trs = sites_table.findChildren('tr')[1:]
+    results = []
+
+    for tr in trs:
+        tds = tr.findChildren('td')
+        results.append({
+            'feature_key': tds[0].span.find(text=True, recursive=False),
+            'positions': tds[1].getText(),
+            'length': tds[2].getText(),
+            'description': tds[3].findChildren('span', recursive=False)[0].getText()
+        })
 
     return results
 
@@ -163,7 +189,7 @@ def move_organism_up(genes):
 
 def full_process(filename):
     gene_ids = read_ensemble_gene_ids(filename)
-    # gene_ids = [gene_ids[0]]
+    # xgene_ids = [gene_ids[0]]
     print 'Got IDs'
 
     genes = get_ensemble_transcripts_for_list(gene_ids)
