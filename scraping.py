@@ -32,12 +32,12 @@ def get_protein_info(url):
             'pdb_url': 'http://www.rcsb.org/pdb/protein' + url[url.rfind('/'):],
             'organism': protein_page.find(id='content-organism').findChildren('em')[0].getText(),
             # 'catalytic_activity': annotations[1].span.find(text=True, recursive=False) if len(annotations) > 2 else [],
-            'keywords_molecular_function': [keyword.getText() for keyword in keywords[0].findChildren('a')]
-            if len(keywords) > 2 else [],
-            'keywords_biological_process': [keyword.getText() for keyword in keywords[1].findChildren('a')]
-            if len(keywords) > 2 else [],
-            'keywords_ligand': [keyword.getText() for keyword in keywords[2].findChildren('a')]
-            if len(keywords) > 2 else [],
+            'keywords_molecular_function': ", ".join([keyword.getText() for keyword in keywords[0].findChildren('a')]
+                                                     if len(keywords) > 2 else []),
+            'keywords_biological_process': ", ".join([keyword.getText() for keyword in keywords[1].findChildren('a')]
+                                                     if len(keywords) > 2 else []),
+            'keywords_ligand': ", ".join([keyword.getText() for keyword in keywords[2].findChildren('a')]
+                                         if len(keywords) > 2 else []),
             # 'pathway': annotations[2].a.getText() if len(annotations) > 2 else [],
             'interactions': parse_table_interactions(protein_page.find(id="interaction")),
             'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy")),
