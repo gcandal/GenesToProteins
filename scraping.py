@@ -4,7 +4,6 @@ import urllib2
 import json
 
 '''
-Enzyme and pathway databases
 campos da tabela  "Family Domains"
 '''
 
@@ -19,11 +18,13 @@ def get_protein_info(url):
     annotations = []
     keywords = []
     sites = {}
+    enzyme_and_pathway = {}
 
     if function:
         annotations = function.findAll('div', {"class": "annotation"})
         keywords = function.findChildren('span', recursive=False)
         sites = function.find(id='sitesAnno_section')
+        enzyme_and_pathway = function.find('table', {"class": "databaseTable PATHWAY"})
 
     print url
 
@@ -32,16 +33,20 @@ def get_protein_info(url):
             'pdb_url': 'http://www.rcsb.org/pdb/protein' + url[url.rfind('/'):],
             'organism': protein_page.find(id='content-organism').findChildren('em')[0].getText(),
             # 'catalytic_activity': annotations[1].span.find(text=True, recursive=False) if len(annotations) > 2 else [],
-            'keywords_molecular_function': ", ".join([keyword.getText() for keyword in keywords[0].findChildren('a')]
-                                                     if len(keywords) > 2 else []),
-            'keywords_biological_process': ", ".join([keyword.getText() for keyword in keywords[1].findChildren('a')]
-                                                     if len(keywords) > 2 else []),
-            'keywords_ligand': ", ".join([keyword.getText() for keyword in keywords[2].findChildren('a')]
-                                         if len(keywords) > 2 else []),
+            'keywords_molecular_function': ", ".join(
+                [keyword.getText() for keyword in keywords[0].findChildren('a')]
+                if len(keywords) > 2 else []),
+            'keywords_biological_process': ", ".join(
+                [keyword.getText() for keyword in keywords[1].findChildren('a')]
+                if len(keywords) > 2 else []),
+            'keywords_ligand': ", ".join(
+                [keyword.getText() for keyword in keywords[2].findChildren('a')]
+                if len(keywords) > 2 else []),
             # 'pathway': annotations[2].a.getText() if len(annotations) > 2 else [],
             'interactions': parse_table_interactions(protein_page.find(id="interaction")),
             'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy")),
-            'sites': parse_sites(sites)}
+            'sites': parse_sites(sites),
+            'enzyme_and_pathway': parse_pathway(enzyme_and_pathway) if enzyme_and_pathway else {}}
 
 
 def parse_table_names_and_taxonomy(names_and_taxonomy_table):
@@ -106,6 +111,20 @@ def parse_sites(sites_table):
             'length': tds[2].getText(),
             'description': tds[3].findChildren('span', recursive=False)[0].getText()
         })
+
+    return results
+
+
+def parse_pathway(pathway_table):
+    if not pathway_table:
+        return {}
+
+    trs = pathway_table.findChildren('tr')
+    results = []
+
+    for tr in trs:
+        tds = tr.findChildren('td')
+        results.append(tds[0].span.find(text=True, recursive=False) + ": " + tds[1].a.getText())
 
     return results
 
@@ -189,7 +208,7 @@ def move_organism_up(genes):
 
 def full_process(filename):
     gene_ids = read_ensemble_gene_ids(filename)
-    # xgene_ids = [gene_ids[0]]
+    # gene_ids = [gene_ids[0]]
     print 'Got IDs'
 
     genes = get_ensemble_transcripts_for_list(gene_ids)
