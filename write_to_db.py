@@ -16,11 +16,17 @@ try:
             for gene in data:
                 cur.execute("INSERT OR IGNORE INTO Genes VALUES(?, ?, ?, ?, ?)", (gene['gene'], gene['organism'] , gene['three_prime'] , time.strftime("%H:%M:%S") , time.strftime("%H:%M:%S")))
                 for transcripts in gene['transcripts']:
-                        for transcriptProtein in transcripts:
-                            cur.execute("INSERT OR IGNORE INTO Proteins VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S") ,transcriptProtein['name'],transcriptProtein['uniprot_url'] , transcriptProtein['pdb_url']  , transcriptProtein['taxonomic_lineage'], transcriptProtein['protein_names'] , transcriptProtein['taxonomic_identifier']  , transcriptProtein['proteomes'], transcriptProtein['interactions']  ,  transcriptProtein['keywords_molecular_function'], transcriptProtein['keywords_ligand']  ,  transcriptProtein['keywords_biological_process']))
-                            cur.execute("INSERT OR IGNORE INTO Transcripts VALUES(?, ?, ?, ?)", (transcriptProtein['transcript'],transcriptProtein['transcript_url'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
-                            cur.execute("INSERT OR IGNORE INTO GeneTranscript VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcriptProtein['name'], transcriptProtein['transcript']))
-                            cur.execute("INSERT OR IGNORE INTO TranscriptProtein VALUES(?,?,?,?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), gene['gene'], transcriptProtein['transcript']))
+                    print transcripts['protein']['interactions']
+                    cur.execute("INSERT OR IGNORE INTO Proteins VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)" ,
+                                (transcripts['protein']['name'], transcripts['protein']['uniprot_url'], transcripts['protein']['pdb_url'],
+                                 transcripts['protein']['names_and_taxonomy']['taxonomic_lineage'], transcripts['protein']['names_and_taxonomy']['organism'],
+                                 transcripts['protein']['names_and_taxonomy']['protein_names'], transcripts['protein']['names_and_taxonomy']['taxonomic_identifier'],
+                                 transcripts['protein']['names_and_taxonomy']['proteomes'][0], transcripts['protein']['interactions'],
+                                 transcripts['protein']['keywords_molecular_function'], transcripts['protein']['keywords_ligand'],
+                                 transcripts['protein']['keywords_biological_process'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
+                    cur.execute("INSERT OR IGNORE INTO Transcripts VALUES(?, ?, ?, ?)", (transcripts['transcript'],transcripts['transcript_url'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
+                    cur.execute("INSERT OR IGNORE INTO GeneTranscript VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['name'], transcripts['transcript']))
+                    cur.execute("INSERT OR IGNORE INTO TranscriptProtein VALUES(?,?,?,?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), gene['gene'], transcripts['transcript']))
 
 
 
