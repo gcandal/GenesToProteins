@@ -16,21 +16,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Ubiquitin-conjugating enzyme E2 S(EC:6.3.2.19)\nAlternative name(s):Ubiquitin carrier protein SUbiquitin-protein ligase ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B5DFI8",
           "name": "Ubiquitin-conjugating enzyme E2 S",
-          "interactions": ["STRING - 10116.ENSRNOP00000022977."],
-          "keywords_molecular_function": ["Ligase"],
-          "keywords_ligand": [
-            "ATP-binding",
-            "Nucleotide-binding"
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000022977."
           ],
-          "keywords_biological_process": [
-            "Cell cycle",
-            "Cell division",
-            "Ubl conjugation pathway"
-          ],
+          "keywords_molecular_function": "Ligase",
+          "keywords_ligand": "ATP-binding, Nucleotide-binding",
+          "keywords_biological_process": "Cell cycle, Cell division, Ubl conjugation pathway",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B5DFI8"
         },
         "transcript": "ENSRNOT00000022977",
@@ -58,14 +55,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Isochorismatase domain-containing protein 2, mitochondria",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U3Z3",
           "name": "Isochorismatase domain-containing protein 2, mitochondrial",
-          "interactions": ["STRING - 10116.ENSRNOP00000022621."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000022621."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U3Z3"
         },
         "transcript": "ENSRNOT00000022620",
@@ -93,14 +94,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Glycogen synthase kinase-3 alpha",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LP91",
           "name": "Glycogen synthase kinase-3 alpha",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LP91"
         },
         "transcript": "ENSRNOT00000027677",
@@ -109,7 +112,9 @@
     ],
     "gene": "ENSRNOG00000020417",
     "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": ["Error. Probably the three_prime is invalid"],
+    "three_prime_proteins": [
+      "Error. Probably the three_prime is invalid"
+    ],
     "three_prime": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
   },
   {
@@ -122,14 +127,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Cytohesin-2",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LSU6",
           "name": "Cytohesin-2",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LSU6"
         },
         "transcript": "ENSRNOT00000028588",
@@ -155,14 +162,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Tripartite motif protein 3, isoform CRA_a",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V8D6",
           "name": "Tripartite motif protein 3, isoform CRA_a",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8D6"
         },
         "transcript": "ENSRNOT00000024850",
@@ -189,14 +198,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ctr9",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V897",
           "name": "Protein Ctr9",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3V897"
         },
         "transcript": "ENSRNOT00000023741",
@@ -231,14 +242,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZKG7",
           "name": "Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_c",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZKG7"
         },
         "transcript": "ENSRNOT00000027630",
@@ -289,14 +302,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
           "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": ["IntAct - B2GV87.1 interaction."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "IntAct - B2GV87.1 interaction."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B2GV87"
         },
         "transcript": "ENSRNOT00000021359",
@@ -335,14 +352,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
           "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": ["IntAct - B2GV87.1 interaction."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "IntAct - B2GV87.1 interaction."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B2GV87"
         },
         "transcript": "ENSRNOT00000021379",
@@ -372,7 +393,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform\nAlternative name(s):PP2A subunit B isoform B55-deltaPP2A subunit B isoform PR55-deltaPP2A subunit B isoform R2-deltaPP2A subunit B isoform delt",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P56932",
           "name": "Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform",
@@ -381,9 +404,9 @@
             "MINT - MINT-4568514.",
             "STRING - 10116.ENSRNOP00000023139."
           ],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P56932"
         },
         "transcript": "ENSRNOT00000023139",
@@ -397,14 +420,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit BUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU33111",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LT56",
           "name": "Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LT56"
         },
         "transcript": "ENSRNOT00000058482",
@@ -435,14 +460,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Putative uncharacterized protein RGD1305793",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2RYF0",
           "name": "Putative uncharacterized protein RGD1305793",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B2RYF0"
         },
         "transcript": "ENSRNOT00000027118",
@@ -500,14 +527,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Nt5c2",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZMY7",
           "name": "Protein Nt5c2",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZMY7"
         },
         "transcript": "ENSRNOT00000027351",
@@ -533,14 +562,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Fam45a",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LNS2",
           "name": "Protein Fam45a",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LNS2"
         },
         "transcript": "ENSRNOT00000013845",
@@ -567,14 +598,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ttc33",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZBZ9",
           "name": "Protein Ttc33",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZBZ9"
         },
         "transcript": "ENSRNOT00000017665",
@@ -602,14 +635,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein RGD1306502",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZV99",
           "name": "Protein RGD1306502",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZV99"
         },
         "transcript": "ENSRNOT00000039234",
@@ -639,14 +674,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:DCN1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU410713\nAlternative name(s):Defective in cullin neddylation protein 1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU41071",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZRV0",
           "name": "DCN1-like protein",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZRV0"
         },
         "transcript": "ENSRNOT00000068334",
@@ -677,14 +714,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LV61",
           "name": "Uncharacterized protein",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LV61"
         },
         "transcript": "ENSRNOT00000020819",
@@ -714,14 +753,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/M0R7D1",
           "name": "La-related protein 7",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/M0R7D1"
         },
         "transcript": "ENSRNOT00000073860",
@@ -735,14 +776,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/M0RC12",
           "name": "La-related protein 7",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/M0RC12"
         },
         "transcript": "ENSRNOT00000074644",
@@ -769,14 +812,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZJ92",
           "name": "Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZJ92"
         },
         "transcript": "ENSRNOT00000006549",
@@ -802,14 +847,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Pex16",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZGV2",
           "name": "Protein Pex16",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZGV2"
         },
         "transcript": "ENSRNOT00000008986",
@@ -838,14 +885,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein LOC100362142",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZFY8",
           "name": "Protein LOC100362142",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZFY8"
         },
         "transcript": "ENSRNOT00000035048",
@@ -875,14 +924,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ube3c",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZHB7",
           "name": "Protein Ube3c",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHB7"
         },
         "transcript": "ENSRNOT00000015232",
@@ -910,14 +961,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LM29",
           "name": "Reelin",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM29"
         },
         "transcript": "ENSRNOT00000010521",
@@ -931,14 +984,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LM29",
           "name": "Reelin",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM29"
         },
         "transcript": "ENSRNOT00000061858",
@@ -965,14 +1020,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:V-type proton ATPase subunit e 2Short name:V-ATPase subunit e 2\nAlternative name(s):Vacuolar proton pump subunit e ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5EB76",
           "name": "V-type proton ATPase subunit e 2",
-          "interactions": ["STRING - 10116.ENSRNOP00000010853."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000010853."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5EB76"
         },
         "transcript": "ENSRNOT00000010853",
@@ -1000,14 +1059,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Exoc6b",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LZ53",
           "name": "Protein Exoc6b",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LZ53"
         },
         "transcript": "ENSRNOT00000036155",
@@ -1035,14 +1096,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Rb1cc1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZHK4",
           "name": "Protein Rb1cc1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHK4"
         },
         "transcript": "ENSRNOT00000061884",
@@ -1072,14 +1135,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Creb3",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P6G3",
           "name": "Protein Creb3",
-          "interactions": ["STRING - 10116.ENSRNOP00000022132."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000022132."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P6G3"
         },
         "transcript": "ENSRNOT00000065909",
@@ -1088,7 +1155,9 @@
     ],
     "gene": "ENSRNOG00000016452",
     "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": ["KHDRBS3"],
+    "three_prime_proteins": [
+      "KHDRBS3"
+    ],
     "three_prime": "ataagaaataaataagtggttcctcagccccttcttactggcacagcggg"
   },
   {
@@ -1101,14 +1170,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Fam76a",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZEU8",
           "name": "Protein Fam76a",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZEU8"
         },
         "transcript": "ENSRNOT00000066549",
@@ -1134,14 +1205,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
           "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": ["STRING - 10116.ENSRNOP00000052521."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000052521."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3Z8D9"
         },
         "transcript": "ENSRNOT00000055658",
@@ -1155,14 +1230,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
           "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": ["STRING - 10116.ENSRNOP00000052521."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000052521."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3Z8D9"
         },
         "transcript": "ENSRNOT00000012193",
@@ -1193,14 +1272,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:DnaJ homolog subfamily C member 27\nAlternative name(s):Rab and DnaJ domain-containing protei",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6IML7",
           "name": "DnaJ homolog subfamily C member 27",
-          "interactions": ["STRING - 10116.ENSRNOP00000049266."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000049266."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IML7"
         },
         "transcript": "ENSRNOT00000005317",
@@ -1228,14 +1311,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Nek9",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZJT2",
           "name": "Protein Nek9",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZJT2"
         },
         "transcript": "ENSRNOT00000068017",
@@ -1263,14 +1348,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Acyl-CoA thioesterase 2",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6IMX8",
           "name": "Acyl-CoA thioesterase 2",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IMX8"
         },
         "transcript": "ENSRNOT00000013515",
@@ -1298,14 +1385,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:LOC362840 (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B1WC19",
           "name": "LOC362840 (Predicted), isoform CRA_c",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC19"
         },
         "transcript": "ENSRNOT00000015869",
@@ -1333,14 +1422,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F7FJ19",
           "name": "Methionine aminopeptidase",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F7FJ19"
         },
         "transcript": "ENSRNOT00000031571",
@@ -1354,14 +1445,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LRI8",
           "name": "Methionine aminopeptidase",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LRI8"
         },
         "transcript": "ENSRNOT00000030056",
@@ -1390,14 +1483,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Slc35e3",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GUZ8",
           "name": "Protein Slc35e3",
-          "interactions": ["STRING - 10116.ENSRNOP00000031609."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000031609."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B2GUZ8"
         },
         "transcript": "ENSRNOT00000029493",
@@ -1425,14 +1522,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Repressor of RNA polymerase III transcription MAF1 homolo",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5XIH0",
           "name": "Repressor of RNA polymerase III transcription MAF1 homolog",
-          "interactions": ["STRING - 10116.ENSRNOP00000018240."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000018240."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5XIH0"
         },
         "transcript": "ENSRNOT00000018240",
@@ -1471,7 +1572,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
           "name": "85/88 kDa calcium-independent phospholipase A2",
@@ -1479,13 +1582,9 @@
             "IntAct - P97570.1 interaction.",
             "STRING - 10116.ENSRNOP00000017104."
           ],
-          "keywords_molecular_function": ["Hydrolase"],
-          "keywords_ligand": ["Calmodulin-binding"],
-          "keywords_biological_process": [
-            "Chemotaxis",
-            "Lipid degradation",
-            "Lipid metabolism"
-          ],
+          "keywords_molecular_function": "Hydrolase",
+          "keywords_ligand": "Calmodulin-binding",
+          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P97570"
         },
         "transcript": "ENSRNOT00000017108",
@@ -1506,7 +1605,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
           "name": "85/88 kDa calcium-independent phospholipase A2",
@@ -1514,13 +1615,9 @@
             "IntAct - P97570.1 interaction.",
             "STRING - 10116.ENSRNOP00000017104."
           ],
-          "keywords_molecular_function": ["Hydrolase"],
-          "keywords_ligand": ["Calmodulin-binding"],
-          "keywords_biological_process": [
-            "Chemotaxis",
-            "Lipid degradation",
-            "Lipid metabolism"
-          ],
+          "keywords_molecular_function": "Hydrolase",
+          "keywords_ligand": "Calmodulin-binding",
+          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P97570"
         },
         "transcript": "ENSRNOT00000016827",
@@ -1581,9 +1678,9 @@
           "uniprot_url": "http://www.uniprot.org/uniprot/B4F756",
           "name": "Atg4d protein",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B4F756"
         },
         "transcript": "ENSRNOT00000075174",
@@ -1608,14 +1705,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Serine/threonine-protein kinase ICK",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V760",
           "name": "Serine/threonine-protein kinase ICK",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3V760"
         },
         "transcript": "ENSRNOT00000012257",
@@ -1686,14 +1785,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Acyl-CoA dehydrogenase family member 11(EC:1.3.99.-)Short name:ACAD-1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B3DMA2",
           "name": "Acyl-CoA dehydrogenase family member 11",
-          "interactions": ["STRING - 10116.ENSRNOP00000014636."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000014636."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B3DMA2"
         },
         "transcript": "ENSRNOT00000038383",
@@ -1725,14 +1828,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Ctdsp1 protein",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/B1WC24",
           "name": "Ctdsp1 protein",
-          "interactions": ["STRING - 10116.ENSRNOP00000020646."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000020646."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC24"
         },
         "transcript": "ENSRNOT00000020646",
@@ -1758,14 +1865,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome 1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/M0RAU7",
           "name": "Uncharacterized protein",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/M0RAU7"
         },
         "transcript": "ENSRNOT00000075591",
@@ -1792,14 +1901,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Golgi apparatus membrane protein TVP23 homologUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU36120",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A2T2",
           "name": "Golgi apparatus membrane protein TVP23 homolog",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D4A2T2"
         },
         "transcript": "ENSRNOT00000029359",
@@ -1860,9 +1971,9 @@
           "uniprot_url": "http://www.uniprot.org/uniprot/G3C8Z1",
           "name": "E3 ubiquitin-protein ligase MGRN1 isoform I",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3C8Z1"
         },
         "transcript": "ENSRNOT00000004416",
@@ -1888,14 +1999,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Zfp213",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A1V0",
           "name": "Protein Zfp213",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D4A1V0"
         },
         "transcript": "ENSRNOT00000030704",
@@ -1921,14 +2034,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Spag7",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZCG4",
           "name": "Protein Spag7",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZCG4"
         },
         "transcript": "ENSRNOT00000005653",
@@ -1958,7 +2073,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
@@ -1966,12 +2083,9 @@
             "DIP - DIP-60265N.",
             "STRING - 10116.ENSRNOP00000063740."
           ],
-          "keywords_molecular_function": ["Activator"],
-          "keywords_ligand": ["DNA-binding"],
-          "keywords_biological_process": [
-            "Transcription",
-            "Transcription regulation"
-          ],
+          "keywords_molecular_function": "Activator",
+          "keywords_ligand": "DNA-binding",
+          "keywords_biological_process": "Transcription, Transcription regulation",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P25977"
         },
         "transcript": "ENSRNOT00000064283",
@@ -1985,7 +2099,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
@@ -1993,12 +2109,9 @@
             "DIP - DIP-60265N.",
             "STRING - 10116.ENSRNOP00000063740."
           ],
-          "keywords_molecular_function": ["Activator"],
-          "keywords_ligand": ["DNA-binding"],
-          "keywords_biological_process": [
-            "Transcription",
-            "Transcription regulation"
-          ],
+          "keywords_molecular_function": "Activator",
+          "keywords_ligand": "DNA-binding",
+          "keywords_biological_process": "Transcription, Transcription regulation",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P25977"
         },
         "transcript": "ENSRNOT00000048418",
@@ -2051,7 +2164,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:cAMP-dependent protein kinase type I-alpha regulatory subunitCleaved into the following chain:cAMP-dependent protein kinase type I-alpha regulatory subunit, N-terminally processe",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P09456",
           "name": "cAMP-dependent protein kinase type I-alpha regulatory subunit",
@@ -2060,9 +2175,9 @@
             "MINT - MINT-1775716.",
             "STRING - 10116.ENSRNOP00000061445."
           ],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P09456"
         },
         "transcript": "ENSRNOT00000071153",
@@ -2088,14 +2203,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Hypothetical LOC287798",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q4FZS5",
           "name": "Hypothetical LOC287798",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q4FZS5"
         },
         "transcript": "ENSRNOT00000037371",
@@ -2122,14 +2239,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Submitted name:Protein Wdr45b",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q2MCP5",
           "name": "Protein Wdr45b",
-          "interactions": ["STRING - 10116.ENSRNOP00000051801."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000051801."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q2MCP5"
         },
         "transcript": "ENSRNOT00000054918",
@@ -2159,14 +2280,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein C2cd2",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P691",
           "name": "Protein C2cd2",
-          "interactions": ["STRING - 10116.ENSRNOP00000002209."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000002209."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P691"
         },
         "transcript": "ENSRNOT00000002209",
@@ -2193,14 +2318,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LM15",
           "name": "Homeobox protein cut-like 1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM15"
         },
         "transcript": "ENSRNOT00000001928",
@@ -2214,7 +2341,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Homeobox protein cut-like 1\nAlternative name(s):CCAAT displacement proteinShort name:CDPCDP2Homeobox protein cux-",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P53565",
           "name": "Homeobox protein cut-like 1",
@@ -2223,15 +2352,9 @@
             "MINT - MINT-4573965.",
             "STRING - 10116.ENSRNOP00000001928."
           ],
-          "keywords_molecular_function": [
-            "Developmental protein",
-            "Repressor"
-          ],
-          "keywords_ligand": ["DNA-binding"],
-          "keywords_biological_process": [
-            "Transcription",
-            "Transcription regulation"
-          ],
+          "keywords_molecular_function": "Developmental protein, Repressor",
+          "keywords_ligand": "DNA-binding",
+          "keywords_biological_process": "Transcription, Transcription regulation",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P53565"
         },
         "transcript": "ENSRNOT00000059486",
@@ -2245,14 +2368,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/M0R4T1",
           "name": "Homeobox protein cut-like 1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/M0R4T1"
         },
         "transcript": "ENSRNOT00000075031",
@@ -2266,14 +2391,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Homeobox protein cut-like 1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1M8J7",
           "name": "Homeobox protein cut-like 1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1M8J7"
         },
         "transcript": "ENSRNOT00000044841",
@@ -2311,14 +2438,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Frg1l1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZRG9",
           "name": "Protein Frg1l1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZRG9"
         },
         "transcript": "ENSRNOT00000001279",
@@ -2347,14 +2476,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Pleckstrin homology-like domain family A member 3\nAlternative name(s):TDAG51/Ipl homolog ",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5PQT7",
           "name": "Pleckstrin homology-like domain family A member 3",
-          "interactions": ["STRING - 10116.ENSRNOP00000011999."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000011999."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5PQT7"
         },
         "transcript": "ENSRNOT00000011999",
@@ -2382,14 +2515,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Kifap3",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZWA5",
           "name": "Protein Kifap3",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZWA5"
         },
         "transcript": "ENSRNOT00000063810",
@@ -2423,14 +2558,16 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:MORF4 family-associated protein 1\nAlternative name(s):T-cell activation protein-related protei",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5M820",
           "name": "MORF4 family-associated protein 1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5M820"
         },
         "transcript": "ENSRNOT00000008121",
@@ -2457,14 +2594,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Supt16h",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A4J0",
           "name": "Protein Supt16h",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D4A4J0"
         },
         "transcript": "ENSRNOT00000016288",
@@ -2493,14 +2632,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:ER membrane protein complex subunit 9\nAlternative name(s):Protein FAM158",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U1W7",
           "name": "ER membrane protein complex subunit 9",
-          "interactions": ["STRING - 10116.ENSRNOP00000026001."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000026001."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U1W7"
         },
         "transcript": "ENSRNOT00000026001",
@@ -2533,7 +2676,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Small conductance calcium-activated potassium channel protein 1Short name:SK1Short name:SKCa 1Short name:SKCa1\nAlternative name(s):KCa2.",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P70606",
           "name": "Small conductance calcium-activated potassium channel protein 1",
@@ -2541,12 +2686,9 @@
             "IntAct - P70606.1 interaction.",
             "MINT - MINT-7138580."
           ],
-          "keywords_molecular_function": ["Ion channel"],
-          "keywords_ligand": ["Calmodulin-binding"],
-          "keywords_biological_process": [
-            "Ion transport",
-            "Transport"
-          ],
+          "keywords_molecular_function": "Ion channel",
+          "keywords_ligand": "Calmodulin-binding",
+          "keywords_biological_process": "Ion transport, Transport",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P70606"
         },
         "transcript": "ENSRNOT00000044291",
@@ -2576,14 +2718,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:GATA zinc finger domain containing 2A",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V8R7",
           "name": "GATA zinc finger domain containing 2A",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8R7"
         },
         "transcript": "ENSRNOT00000027943",
@@ -2608,14 +2752,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Submitted name:1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0ZFS7",
           "name": "1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
-          "interactions": ["STRING - 10116.ENSRNOP00000024392."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000024392."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q0ZFS7"
         },
         "transcript": "ENSRNOT00000024392",
@@ -2641,14 +2789,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Dip2c",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZZB0",
           "name": "Protein Dip2c",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZZB0"
         },
         "transcript": "ENSRNOT00000020634",
@@ -2675,14 +2825,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Cables1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LUR9",
           "name": "Protein Cables1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LUR9"
         },
         "transcript": "ENSRNOT00000017187",
@@ -2708,14 +2860,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ss18",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/D4ABC5",
           "name": "Protein Ss18",
-          "interactions": ["IntAct - D4ABC5.1 interaction."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "IntAct - D4ABC5.1 interaction."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/D4ABC5"
         },
         "transcript": "ENSRNOT00000032454",
@@ -2776,10 +2932,12 @@
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0H8V1",
           "name": "DNAJC18",
-          "interactions": ["STRING - 10116.ENSRNOP00000027194."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000027194."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q0H8V1"
         },
         "transcript": "ENSRNOT00000027194",
@@ -2865,7 +3023,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Peroxisomal multifunctional enzyme type 2Short name:MFE-2\nAlternative name(s):17-beta-hydroxysteroid dehydrogenase 4Short name:17-beta-HSD 4D-bifunctional proteinShort name:DBPMultifunctional protein 2Short name:MPF-2Cleaved into the following 2 chains:(3R)-hydroxyacyl-CoA dehydrogenase(EC:1.1.1.n12)Enoyl-CoA hydratase 2(EC:4.2.1.107,EC:4.2.1.119)\nAlternative name(s):3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratas",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/P97852",
           "name": "Peroxisomal multifunctional enzyme type 2",
@@ -2873,16 +3033,9 @@
             "IntAct - P97852.1 interaction.",
             "STRING - 10116.ENSRNOP00000043755."
           ],
-          "keywords_molecular_function": [
-            "Isomerase",
-            "Lyase",
-            "Oxidoreductase"
-          ],
-          "keywords_ligand": ["NAD"],
-          "keywords_biological_process": [
-            "Fatty acid metabolism",
-            "Lipid metabolism"
-          ],
+          "keywords_molecular_function": "Isomerase, Lyase, Oxidoreductase",
+          "keywords_ligand": "NAD",
+          "keywords_biological_process": "Fatty acid metabolism, Lipid metabolism",
           "pdb_url": "http://www.rcsb.org/pdb/protein/P97852"
         },
         "transcript": "ENSRNOT00000021646",
@@ -2916,7 +3069,9 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Microtubule-associated proteins 1A/1B light chain 3B\nAlternative name(s):Autophagy-related protein LC3 BAutophagy-related ubiquitin-like modifier LC3 BMAP1 light chain 3-like protein 2MAP1A/MAP1B light chain 3 BShort name:MAP1A/MAP1B LC3 BMicrotubule-associated protein 1 light chain 3 bet",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q62625",
           "name": "Microtubule-associated proteins 1A/1B light chain 3B",
@@ -2924,9 +3079,9 @@
             "BioGrid - 249213.3 interactions.",
             "IntAct - Q62625.7 interactions."
           ],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q62625"
         },
         "transcript": "ENSRNOT00000067141",
@@ -2940,14 +3095,16 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Submitted name:Protein LOC100363716",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q7TQ75",
           "name": "Protein LOC100363716",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q7TQ75"
         },
         "transcript": "ENSRNOT00000051352",
@@ -2974,14 +3131,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": ["STRING - 10116.ENSRNOP00000048376."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000048376."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1"
         },
         "transcript": "ENSRNOT00000045657",
@@ -2995,14 +3156,18 @@
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": ["STRING - 10116.ENSRNOP00000048376."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000048376."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1"
         },
         "transcript": "ENSRNOT00000039273",
@@ -3031,14 +3196,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Znrd1as1",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LQH1",
           "name": "Protein Znrd1as1",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/F1LQH1"
         },
         "transcript": "ENSRNOT00000001011",
@@ -3065,14 +3232,18 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Sar1a",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6AY18",
           "name": "Protein Sar1a",
-          "interactions": ["STRING - 10116.ENSRNOP00000000673."],
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "interactions": [
+            "STRING - 10116.ENSRNOP00000000673."
+          ],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/Q6AY18"
         },
         "transcript": "ENSRNOT00000000673",
@@ -3098,14 +3269,16 @@
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein LOC606294",
             "taxonomic_identifier": "10116",
-            "proteomes": ["UP000002494"]
+            "proteomes": [
+              "UP000002494"
+            ]
           },
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V614",
           "name": "Protein LOC606294",
           "interactions": {},
-          "keywords_molecular_function": [],
-          "keywords_ligand": [],
-          "keywords_biological_process": [],
+          "keywords_molecular_function": "",
+          "keywords_ligand": "",
+          "keywords_biological_process": "",
           "pdb_url": "http://www.rcsb.org/pdb/protein/G3V614"
         },
         "transcript": "ENSRNOT00000000444",

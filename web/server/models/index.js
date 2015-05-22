@@ -17,17 +17,17 @@ models.forEach(function(model) {
 });
 
 (function(m) {
+    m.Gene.belongsToMany(m.Transcript, {through: 'GeneTranscript'});
     m.Transcript.belongsToMany(m.Gene, {through: 'GeneTranscript'});
-    m.Gene.hasMany(m.Transcript, {through: 'GeneTranscript'});
-    m.Transcript.hasMany(m.Protein, {through: 'TranscriptProtein'});
+    m.Transcript.belongsToMany(m.Protein, {through: 'TranscriptProtein'});
     m.Protein.belongsToMany(m.Transcript, {through: 'TranscriptProtein'});
-    m.Gene.hasMany(m.Protein, {through: 'ThreePrimeProtein'});
+    m.Gene.belongsToMany(m.Protein, {through: 'ThreePrimeProtein'});
     m.Protein.belongsToMany(m.Gene, {through: 'ThreePrimeProtein'});
 })(module.exports);
 
 sequelize
-//.sync({    force: true})
-    .sync()
+.sync({    force: true})
+//    .sync()
     .then(syncSuccess, syncError);
 
 function syncSuccess() {
