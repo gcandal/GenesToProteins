@@ -13,6 +13,9 @@ def read_ensemble_gene_ids(filename):
 
 
 def get_protein_info(url):
+    if url.find('uniprot') < 0:
+        return {}
+
     protein_page = BeautifulSoup(urllib.urlopen(url).read())
     function = protein_page.find(id='function')
     annotations = []
@@ -25,8 +28,6 @@ def get_protein_info(url):
         keywords = function.findChildren('span', recursive=False)
         sites = function.find(id='sitesAnno_section')
         enzyme_and_pathway = function.find('table', {"class": "databaseTable PATHWAY"})
-
-    print url
 
     return {'name': protein_page.find(id='content-protein').findChildren('h1')[0].getText(),
             'uniprot_url': url,
@@ -43,7 +44,7 @@ def get_protein_info(url):
                 [keyword.getText() for keyword in keywords[2].findChildren('a')]
                 if len(keywords) > 2 else []),
             # 'pathway': annotations[2].a.getText() if len(annotations) > 2 else [],
-            'interactions': parse_table_interactions(protein_page.find(id="interaction")),
+            'interactions': ", ".join(parse_table_interactions(protein_page.find(id="interaction"))),
             'names_and_taxonomy': parse_table_names_and_taxonomy(protein_page.find(id="names_and_taxonomy")),
             'sites': parse_sites(sites),
             'enzyme_and_pathway': parse_pathway(enzyme_and_pathway) if enzyme_and_pathway else {}}
@@ -67,12 +68,13 @@ def parse_table_names_and_taxonomy(names_and_taxonomy_table):
     organism = trs[2 + offset].findChildren('td')[1].getText()
 
     return {'protein_names': protein_names[:protein_names.find("Imported")],
-            'organism': organism[:organism.find("Imported")],
+            'organism': organism[:organism.find("Imported") + 1],
             'taxonomic_identifier': trs[3 + offset].findChildren('td')[1].findChildren('a')[0].getText(),
             'taxonomic_lineage': " > ".join(
                 [taxonomy.getText() for taxonomy in
                  trs[4 + offset].findChildren('td')[1].findChildren('a', recursive=False)]),
-            'proteomes': [proteome.getText() for proteome in trs[5 + offset].findChildren('td')[1].findChildren('a')]
+            'proteomes': ", ".join(
+                [proteome.getText() for proteome in trs[5 + offset].findChildren('td')[1].findChildren('a')])
             }
 
 
@@ -80,9 +82,9 @@ def parse_table_interactions(interactions_table):
     if not interactions_table:
         return {}
 
-    table = interactions_table.findChildren('table')
+    table = interactions_table.findAll('table', {'class': 'databaseTable INTERACTION'})
 
-    if not table:
+    if not table or table:
         return {}
 
     table = table[0]
@@ -130,8 +132,13 @@ def parse_pathway(pathway_table):
 
 
 def get_ensemble_transcripts(gene):
-    gene_page = BeautifulSoup(urllib.urlopen('http://www.ensembl.org//Gene/Summary?db=core;g=' + gene).read())
+    gene_page = BeautifulSoup(urllib.urlopen('http://www.ensembl.org/Gene/Summary?db=core;g=' + gene).read())
     transcripts_table = gene_page.find(id='transcripts_table')
+
+    if not transcripts_table:
+        print 'http://www.ensembl.org/Gene/Summary?db=core;g=' + gene + " - Nao tem ID na tabela ou nao tem tabela"
+        return []
+
     transcripts_table_rows = transcripts_table.tbody.findChildren('tr')
 
     result = []
@@ -172,7 +179,10 @@ def get_ensemble_three_prime(transcript_url):
 
 def get_ensemble_three_prime_for_list(genes):
     for gene in genes:
-        gene['three_prime'] = get_ensemble_three_prime(gene['transcripts'][0]['transcript_url'])
+        if gene['transcripts']:
+            gene['three_prime'] = get_ensemble_three_prime(gene['transcripts'][0]['transcript_url'])
+        else:
+            print "Missing transcripts for " + gene['gene']
 
 
 def get_proteins_for_three_prime(three_prime):
@@ -191,7 +201,10 @@ def get_proteins_for_three_prime(three_prime):
 
 def add_three_prime_proteins_for_list(genes):
     for gene in genes:
-        gene['three_prime_proteins'] = get_proteins_for_three_prime(gene['three_prime'])
+        if 'three_prime' in gene:
+            gene['three_prime_proteins'] = get_proteins_for_three_prime(gene['three_prime'])
+        else:
+            print "Missing three_prime for " + gene['gene']
 
 
 def move_organism_up(genes):

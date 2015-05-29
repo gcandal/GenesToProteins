@@ -3,6 +3,19 @@
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Ubiquitin-conjugating enzyme E2 S(EC:6.3.2.19)\nAlternative name(s):Ubiquitin carrier protein SUbiquitin-protein ligase ",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "Cell cycle, Cell division, Ubl conjugation pathway",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B5DFI8",
+          "uniprot_url": "http://www.uniprot.org/uniprot/B5DFI8",
+          "name": "Ubiquitin-conjugating enzyme E2 S",
+          "enzyme_and_pathway": ["UniPathway: UPA00143"],
           "sites": [
             {
               "positions": "95&nbsp;&ndash;&nbsp;95",
@@ -11,27 +24,11 @@
               "description": "Glycyl thioester intermediate"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Ubiquitin-conjugating enzyme E2 S(EC:6.3.2.19)\nAlternative name(s):Ubiquitin carrier protein SUbiquitin-protein ligase ",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/B5DFI8",
-          "name": "Ubiquitin-conjugating enzyme E2 S",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000022977."
-          ],
           "keywords_molecular_function": "Ligase",
-          "keywords_ligand": "ATP-binding, Nucleotide-binding",
-          "keywords_biological_process": "Cell cycle, Cell division, Ubl conjugation pathway",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B5DFI8"
+          "keywords_ligand": "ATP-binding, Nucleotide-binding"
         },
         "transcript": "ENSRNOT00000022977",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016930;r=1:75951968-75956026;t=ENSRNOT00000022977"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016930;r=1:72580424-72584482;t=ENSRNOT00000022977"
       }
     ],
     "gene": "ENSRNOG00000016930",
@@ -49,28 +46,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Isochorismatase domain-containing protein 2, mitochondria",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U3Z3",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U3Z3",
           "name": "Isochorismatase domain-containing protein 2, mitochondrial",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000022621."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U3Z3"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000022620",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016829;r=1:75991121-76011769;t=ENSRNOT00000022620"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016829;r=1:72524569-72545329;t=ENSRNOT00000022620"
       }
     ],
     "gene": "ENSRNOG00000016829",
@@ -87,60 +81,65 @@
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000084530",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020417;r=1:82097247-82108203;t=ENSRNOT00000084530"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Glycogen synthase kinase-3 alpha",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LP91",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LP91",
           "name": "Glycogen synthase kinase-3 alpha",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LP91"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027677",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020417;r=1:83366057-83374707;t=ENSRNOT00000027677"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020417;r=1:82097247-82108203;t=ENSRNOT00000027677"
       }
     ],
     "gene": "ENSRNOG00000020417",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "Error. Probably the three_prime is invalid"
+      "FUS",
+      "RBMX",
+      "ELAVL1"
     ],
-    "three_prime": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+    "three_prime": "aaacccttcttcctgtctggctgcctatttccacagaggtgggggttcag"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Cytohesin-2",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LSU6",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LSU6",
           "name": "Cytohesin-2",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LSU6"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000028588",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021051;r=1:102875334-102882171;t=ENSRNOT00000028588"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021051;r=1:101796349-101803200;t=ENSRNOT00000028588"
       }
     ],
     "gene": "ENSRNOG00000021051",
@@ -156,62 +155,62 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Tripartite motif protein 3, isoform CRA_a",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8D6",
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V8D6",
           "name": "Tripartite motif protein 3, isoform CRA_a",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8D6"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000024850",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000018356;r=1:177447514-177470193;t=ENSRNOT00000024850"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000018356;r=1:170441639-170464341;t=ENSRNOT00000024850"
       }
     ],
     "gene": "ENSRNOG00000018356",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "SFRS2",
-      "FUS",
-      "MBNL1",
-      "SFRS1"
+      "PABPC1",
+      "EIF4B",
+      "SFRS1",
+      "SFRS1",
+      "KHDRBS3"
     ],
-    "three_prime": "tttttgctaggttcttgtggtgtgggtctctgatgggttggagtattggt"
+    "three_prime": "gggtctctgatgggttggagtattggtatctactgtggactaaaaagtgg"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ctr9",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V897",
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V897",
           "name": "Protein Ctr9",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V897"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000023741",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017195;r=1:182823942-182853969;t=ENSRNOT00000023741"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017195;r=1:175839108-175869165;t=ENSRNOT00000023741"
       }
     ],
     "gene": "ENSRNOG00000017195",
@@ -230,32 +229,31 @@
       "ELAVL1",
       "ELAVL1"
     ],
-    "three_prime": "cctgggtgtccttttttatttttatttttttctcctcaataacacattaa"
+    "three_prime": "tacctgggtgtccttttttatttttatttttttctcctcaataacacatt"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZKG7",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZKG7",
           "name": "Inositol polyphosphate-5-phosphatase F (Predicted), isoform CRA_c",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZKG7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027630",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020388;r=1:207085286-207164061;t=ENSRNOT00000027630"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020388;r=1:200037749-200116524;t=ENSRNOT00000027630"
       }
     ],
     "gene": "ENSRNOG00000020388",
@@ -271,6 +269,19 @@
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B2GV87",
+          "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
+          "name": "Receptor-type tyrosine-protein phosphatase epsilon",
+          "enzyme_and_pathway": {},
           "sites": [
             {
               "positions": "302&nbsp;&ndash;&nbsp;302",
@@ -297,147 +308,35 @@
               "description": "Phosphocysteine intermediate"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
-          "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": [
-            "IntAct - B2GV87.1 interaction."
-          ],
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B2GV87"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000021359",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015717;r=1:214879098-214919139;t=ENSRNOT00000021359"
-      },
-      {
-        "protein": {
-          "sites": [
-            {
-              "positions": "302&nbsp;&ndash;&nbsp;302",
-              "length": "1",
-              "feature_key": "Binding site",
-              "description": "Substrate"
-            },
-            {
-              "positions": "334&nbsp;&ndash;&nbsp;334",
-              "length": "1",
-              "feature_key": "Active site",
-              "description": "Phosphocysteine intermediate"
-            },
-            {
-              "positions": "378&nbsp;&ndash;&nbsp;378",
-              "length": "1",
-              "feature_key": "Binding site",
-              "description": "Substrate"
-            },
-            {
-              "positions": "629&nbsp;&ndash;&nbsp;629",
-              "length": "1",
-              "feature_key": "Active site",
-              "description": "Phosphocysteine intermediate"
-            }
-          ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Receptor-type tyrosine-protein phosphatase epsilon(EC:3.1.3.48)Short name:Protein-tyrosine phosphatase epsilonShort name:R-PTP-epsilo",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/B2GV87",
-          "name": "Receptor-type tyrosine-protein phosphatase epsilon",
-          "interactions": [
-            "IntAct - B2GV87.1 interaction."
-          ],
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B2GV87"
-        },
-        "transcript": "ENSRNOT00000021379",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015717;r=1:214879098-214919139;t=ENSRNOT00000021379"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015717;r=1:207887209-207987136;t=ENSRNOT00000021359"
       }
     ],
     "gene": "ENSRNOG00000015717",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "PABPC1",
       "MBNL1",
       "EIF4B",
-      "EIF4B",
+      "YTHDC1",
       "QKI",
-      "SFRS1",
-      "KHDRBS3"
+      "RBMX",
+      "KHDRBS3",
+      "ELAVL1"
     ],
-    "three_prime": "aaaaattggaataacatgttaaggtcaaatgctatctgggaagacatata"
+    "three_prime": "tcaaatgctatctgggaagacatatatttctcctaataccagtcagtatc"
   },
   {
     "transcripts": [
       {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform\nAlternative name(s):PP2A subunit B isoform B55-deltaPP2A subunit B isoform PR55-deltaPP2A subunit B isoform R2-deltaPP2A subunit B isoform delt",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/P56932",
-          "name": "Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform",
-          "interactions": [
-            "IntAct - P56932.1 interaction.",
-            "MINT - MINT-4568514.",
-            "STRING - 10116.ENSRNOP00000023139."
-          ],
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P56932"
-        },
+        "protein": {},
         "transcript": "ENSRNOT00000023139",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016940;r=1:218132463-218166449;t=ENSRNOT00000023139"
-      },
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Recommended name:Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit BUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU33111",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1LT56",
-          "name": "Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LT56"
-        },
-        "transcript": "ENSRNOT00000058482",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016940;r=1:218132463-218166449;t=ENSRNOT00000058482"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016940;r=1:211205903-211239888;t=ENSRNOT00000023139"
       }
     ],
     "gene": "ENSRNOG00000016940",
-    "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "ZFP36",
       "ELAVL2",
@@ -454,26 +353,30 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Putative uncharacterized protein RGD1305793",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B2RYF0",
           "uniprot_url": "http://www.uniprot.org/uniprot/B2RYF0",
           "name": "Putative uncharacterized protein RGD1305793",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B2RYF0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027118",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020020;r=1:273789070-273845332;t=ENSRNOT00000027118"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020020;r=1:266358728-266415296;t=ENSRNOT00000027118"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000080509",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020020;r=1:266358728-266415296;t=ENSRNOT00000080509"
       }
     ],
     "gene": "ENSRNOG00000020020",
@@ -490,6 +393,19 @@
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Nt5c2",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZMY7",
+          "uniprot_url": "http://www.uniprot.org/uniprot/D3ZMY7",
+          "name": "Protein Nt5c2",
+          "enzyme_and_pathway": ["Reactome: REACT_287310."],
           "sites": [
             {
               "positions": "21&nbsp;&ndash;&nbsp;21",
@@ -522,25 +438,11 @@
               "description": "Magnesium"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein Nt5c2",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/D3ZMY7",
-          "name": "Protein Nt5c2",
-          "interactions": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZMY7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027351",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020179;r=1:274089443-274123321;t=ENSRNOT00000027351"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020179;r=1:266659519-266782910;t=ENSRNOT00000027351"
       }
     ],
     "gene": "ENSRNOG00000020179",
@@ -550,68 +452,68 @@
       "EIF4B",
       "RBMX"
     ],
-    "three_prime": "ggcagactgaaaaccctgagcacccatcaagtctgacggactcgtggggg"
+    "three_prime": "taaggcagactgaaaaccctgagcacccatcaagtctgacggactcgtgg"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Fam45a",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LNS2",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LNS2",
           "name": "Protein Fam45a",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LNS2"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000013845",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010230;r=1:289526637-289550131;t=ENSRNOT00000013845"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010230;r=1:282188110-282210580;t=ENSRNOT00000013845"
       }
     ],
     "gene": "ENSRNOG00000010230",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "ELAVL2",
-      "PABPC1",
-      "SFRS13A",
-      "ELAVL1"
+      "SFRS9",
+      "MBNL1",
+      "SFRS9",
+      "RBMX",
+      "SFRS1",
+      "KHDRBS3"
     ],
-    "three_prime": "aaaaagagcgactgatgtcttttcattttctcccttatcttgcggtatca"
+    "three_prime": "ttaattgctgtcttaatggtaggagccacatagatcagcacatgcaaacc"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ttc33",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZBZ9",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZBZ9",
           "name": "Protein Ttc33",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZBZ9"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000017665",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000013217;r=2:73921832-73962356;t=ENSRNOT00000017665"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000013217;r=2:54897424-54939514;t=ENSRNOT00000017665"
       }
     ],
     "gene": "ENSRNOG00000013217",
@@ -629,26 +531,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein RGD1306502",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZV99",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZV99",
           "name": "Protein RGD1306502",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZV99"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000039234",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000022745;r=2:81805197-81821374;t=ENSRNOT00000039234"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000022745;r=2:62870871-62887048;t=ENSRNOT00000039234"
       }
     ],
     "gene": "ENSRNOG00000022745",
@@ -668,26 +569,30 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:DCN1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU410713\nAlternative name(s):Defective in cullin neddylation protein 1-like proteinUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU41071",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZRV0",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZRV0",
           "name": "DCN1-like protein",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZRV0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000068334",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012734;r=2:142111797-142274371;t=ENSRNOT00000068334"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012734;r=2:122476173-122646445;t=ENSRNOT00000068334"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000080100",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012734;r=2:122476173-122646445;t=ENSRNOT00000080100"
       }
     ],
     "gene": "ENSRNOG00000012734",
@@ -705,91 +610,54 @@
     "three_prime": "tcagagatctactgtagttatttattttttcctttgatgataagttttga"
   },
   {
-    "transcripts": [
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome ",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1LV61",
-          "name": "Uncharacterized protein",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LV61"
-        },
-        "transcript": "ENSRNOT00000020819",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015533;r=2:206341919-206343163;t=ENSRNOT00000020819"
-      }
-    ],
-    "gene": "ENSRNOG00000015533",
-    "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": [
-      "EIF4B",
-      "Pum2",
-      "EIF4B",
-      "SFRS1",
-      "ELAVL1",
-      "ELAVL1",
-      "ELAVL1"
-    ],
-    "three_prime": "gagtattgtaggaacatttgagttatttcaatcagaaaatttcacaggca"
+    "transcripts": [],
+    "gene": "ENSRNOG00000015533"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/M0R7D1",
           "uniprot_url": "http://www.uniprot.org/uniprot/M0R7D1",
           "name": "La-related protein 7",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/M0R7D1"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000073860",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000048989;r=2:251212713-251227583;t=ENSRNOT00000073860"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000048989;r=2:231867135-231881939;t=ENSRNOT00000073860"
       },
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:La-related protein 7",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/M0RC12",
           "uniprot_url": "http://www.uniprot.org/uniprot/M0RC12",
           "name": "La-related protein 7",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/M0RC12"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000074644",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000048989;r=2:251212713-251227583;t=ENSRNOT00000074644"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000048989;r=2:231867135-231881939;t=ENSRNOT00000074644"
       }
     ],
     "gene": "ENSRNOG00000048989",
@@ -797,35 +665,33 @@
     "three_prime_proteins": [
       "MBNL1",
       "MBNL1",
-      "YTHDC1",
-      "Vts1"
+      "YTHDC1"
     ],
-    "three_prime": "gaagactatgacttttgggctcccttgctgaagtattcttagtgctgggg"
+    "three_prime": "tgagaagactatgacttttgggctcccttgctgaagtattcttagtgctg"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZJ92",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZJ92",
           "name": "Pre-mRNA processing factor 40 homolog A (Yeast) (Predicted)",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZJ92"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000006549",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000004864;r=3:43779312-43838952;t=ENSRNOT00000006549"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000004864;r=3:38682146-38741113;t=ENSRNOT00000006549"
       }
     ],
     "gene": "ENSRNOG00000004864",
@@ -840,65 +706,73 @@
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000086530",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006539;r=3:81283137-81292573;t=ENSRNOT00000086530"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Pex16",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZGV2",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZGV2",
           "name": "Protein Pex16",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZGV2"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000008986",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006539;r=3:87986605-87996037;t=ENSRNOT00000008986"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006539;r=3:81283137-81292573;t=ENSRNOT00000008986"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000086217",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006539;r=3:81283137-81292573;t=ENSRNOT00000086217"
       }
     ],
     "gene": "ENSRNOG00000006539",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
+      "MBNL1",
       "KHSRP",
       "SFRS9",
-      "RBMX",
       "RBMX",
       "RBM4",
       "RBMX"
     ],
-    "three_prime": "atccagcacgcggctctgtgtccatcagccacacctctcctggcagctct"
+    "three_prime": "agcacgcggctctgtgtccatcagccacacctctcctggcagctctgctc"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein LOC100362142",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZFY8",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZFY8",
           "name": "Protein LOC100362142",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_278187."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZFY8"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000035048",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000025580;r=3:170494658-170517510;t=ENSRNOT00000035048"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000025580;r=3:164343833-164366684;t=ENSRNOT00000035048"
       }
     ],
     "gene": "ENSRNOG00000025580",
@@ -918,86 +792,88 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ube3c",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHB7",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZHB7",
           "name": "Protein Ube3c",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_312094."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHB7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000015232",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010702;r=4:2558988-2658633;t=ENSRNOT00000015232"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010702;r=4:2527434-2606655;t=ENSRNOT00000015232"
       }
     ],
     "gene": "ENSRNOG00000010702",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "MBNL1",
-      "YBX1",
-      "Vts1",
-      "RBMX",
+      "PABPC1",
+      "PABPC1",
+      "PABPC1",
+      "PABPC1",
+      "EIF4B",
+      "SFRS1",
+      "SFRS13A",
+      "KHDRBS3",
+      "KHDRBS3",
       "KHDRBS3"
     ],
-    "three_prime": "aaagtggcaggctgcgtctctccgtgatccacatgctctcctggcctaac"
+    "three_prime": "ttatattaaattactgagaaaaaaaataaatcttcctaaaggaagattct"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM29",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LM29",
           "name": "Reelin",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM29"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000010521",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021441;r=4:9349481-9775752;t=ENSRNOT00000010521"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021441;r=4:9347528-9773670;t=ENSRNOT00000010521"
       },
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Reelin",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1LM29",
-          "name": "Reelin",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
+          "interactions": "",
           "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM29"
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LZI7",
+          "uniprot_url": "http://www.uniprot.org/uniprot/F1LZI7",
+          "name": "Reelin",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000061858",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021441;r=4:9349481-9775752;t=ENSRNOT00000061858"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021441;r=4:9347528-9773670;t=ENSRNOT00000061858"
       }
     ],
     "gene": "ENSRNOG00000021441",
@@ -1005,37 +881,36 @@
     "three_prime_proteins": [
       "ybx2-a",
       "Pum2",
-      "YTHDC1",
-      "RBMX"
+      "MBNL1",
+      "MBNL1",
+      "KHDRBS3",
+      "ELAVL1"
     ],
-    "three_prime": "gtcatagtcataccttctgatgaagttgagccaacaccagcaaagtgtaa"
+    "three_prime": "tataacaccctgaaactgtatctacttgctgggttgcaatattttgctgc"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:V-type proton ATPase subunit e 2Short name:V-ATPase subunit e 2\nAlternative name(s):Vacuolar proton pump subunit e ",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5EB76",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5EB76",
           "name": "V-type proton ATPase subunit e 2",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000010853."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_280231."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5EB76"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000010853",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000008218;r=4:142831842-142835730;t=ENSRNOT00000010853"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000008218;r=4:78168117-78171265;t=ENSRNOT00000010853"
       }
     ],
     "gene": "ENSRNOG00000008218",
@@ -1043,73 +918,38 @@
     "three_prime_proteins": [
       "MBNL1",
       "RBMX",
-      "RBMX",
-      "ELAVL1",
-      "ELAVL1"
+      "SFRS13A",
+      "KHDRBS3"
     ],
-    "three_prime": "gattttgcagccaagctctggcctctgctcagtttgccagctgccacatg"
+    "three_prime": "ccagagatgctgttgacctaaagaagcagtcacaccaaaaccctggcaca"
+  },
+  {
+    "transcripts": [],
+    "gene": "ENSRNOG00000028359"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein Exoc6b",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1LZ53",
-          "name": "Protein Exoc6b",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LZ53"
-        },
-        "transcript": "ENSRNOT00000036155",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000028359;r=4:180900780-181368585;t=ENSRNOT00000036155"
-      }
-    ],
-    "gene": "ENSRNOG00000028359",
-    "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": [
-      "SNRPA",
-      "SNRPA",
-      "RBMY1A1",
-      "sap-49",
-      "ELAVL1"
-    ],
-    "three_prime": "ctgtgttgtgagatttttcttctgattccttttgcacaatgtgtctgtgg"
-  },
-  {
-    "transcripts": [
-      {
-        "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Rb1cc1",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHK4",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZHK4",
           "name": "Protein Rb1cc1",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZHK4"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000061884",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006833;r=5:17805493-17868916;t=ENSRNOT00000061884"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000006833;r=5:13033918-13097341;t=ENSRNOT00000061884"
       }
     ],
     "gene": "ENSRNOG00000006833",
@@ -1128,129 +968,156 @@
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000085311",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016452;r=5:59063531-59068188;t=ENSRNOT00000085311"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Creb3",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P6G3",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P6G3",
           "name": "Protein Creb3",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000022132."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P6G3"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000065909",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016452;r=5:63588152-63592782;t=ENSRNOT00000065909"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016452;r=5:59063531-59068188;t=ENSRNOT00000065909"
       }
     ],
     "gene": "ENSRNOG00000016452",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "KHDRBS3"
+      "NCL",
+      "EIF4B",
+      "EIF4B",
+      "YTHDC1",
+      "RBMX",
+      "SFRS1",
+      "SFRS1"
     ],
-    "three_prime": "ataagaaataaataagtggttcctcagccccttcttactggcacagcggg"
+    "three_prime": "actggccttgaatacttcatccacagaaggaatgggaaggataagaaata"
   },
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000077360",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011254;r=5:151089900-151117042;t=ENSRNOT00000077360"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Fam76a",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZEU8",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZEU8",
           "name": "Protein Fam76a",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZEU8"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000066549",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011254;r=5:154755365-154784446;t=ENSRNOT00000066549"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011254;r=5:151089900-151117042;t=ENSRNOT00000066549"
       }
     ],
     "gene": "ENSRNOG00000011254",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "MBNL1",
-      "ELAVL1",
-      "SFRS1"
+      "KHSRP"
     ],
-    "three_prime": "agatgaatgttttgattcagttgctggattctgtctttctccttcctctc"
+    "three_prime": "ggtcagggttggtccgagacctggctctgggatctctggggattgtgctt"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3Z8D9",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
           "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000052521."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_278441."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3Z8D9"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000055658",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:168609806-168614293;t=ENSRNOT00000055658"
-      },
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Mitotic spindle assembly checkpoint protein MAD2B\nAlternative name(s):Mitotic arrest deficient 2-like protein 2Short name:MAD2-like protein ",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/D3Z8D9",
-          "name": "Mitotic spindle assembly checkpoint protein MAD2B",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000052521."
-          ],
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3Z8D9"
-        },
-        "transcript": "ENSRNOT00000012193",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:168609806-168614293;t=ENSRNOT00000012193"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:164950917-164956255;t=ENSRNOT00000055658"
       },
       {
         "protein": {},
+        "transcript": "ENSRNOT00000083678",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:164950917-164956255;t=ENSRNOT00000083678"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Mitotic spindle assembly checkpoint protein MAD2B",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/A0A0A0MP76",
+          "uniprot_url": "http://www.uniprot.org/uniprot/A0A0A0MP76",
+          "name": "Mitotic spindle assembly checkpoint protein MAD2B",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000012193",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:164950917-164956255;t=ENSRNOT00000012193"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Mitotic spindle assembly checkpoint protein MAD2B",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/A0A096MJ62",
+          "uniprot_url": "http://www.uniprot.org/uniprot/A0A096MJ62",
+          "name": "Mitotic spindle assembly checkpoint protein MAD2B",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
         "transcript": "ENSRNOT00000076305",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:168609806-168614293;t=ENSRNOT00000076305"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009134;r=5:164950917-164956255;t=ENSRNOT00000076305"
       }
     ],
     "gene": "ENSRNOG00000009134",
@@ -1266,28 +1133,52 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:DnaJ homolog subfamily C member 27\nAlternative name(s):Rab and DnaJ domain-containing protei",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IML7",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6IML7",
           "name": "DnaJ homolog subfamily C member 27",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000049266."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IML7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000005317",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003988;r=6:38322002-38351682;t=ENSRNOT00000005317"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003988;r=6:28515025-28544790;t=ENSRNOT00000005317"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000081141",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003988;r=6:28515025-28544790;t=ENSRNOT00000081141"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Dnajc27",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
+            "taxonomic_identifier": "Rattus norvegicus (Rat)",
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6QI28",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q6QI28",
+          "name": "LRRGT00180",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000088033",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003988;r=6:28515025-28544790;t=ENSRNOT00000088033"
       }
     ],
     "gene": "ENSRNOG00000003988",
@@ -1302,66 +1193,32 @@
     "three_prime": "cactggtctgctggctgcattgatttgttgagaccctgatcttggtgtaa"
   },
   {
-    "transcripts": [
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein Nek9",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/D3ZJT2",
-          "name": "Protein Nek9",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZJT2"
-        },
-        "transcript": "ENSRNOT00000068017",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000007001;r=6:116390547-116435517;t=ENSRNOT00000068017"
-      }
-    ],
-    "gene": "ENSRNOG00000007001",
-    "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": [
-      "EIF4B",
-      "YTHDC1",
-      "RBMX",
-      "SFRS1",
-      "ELAVL1"
-    ],
-    "three_prime": "ccaagtgatcatgccagtttgtctacaaaacttcctcaggaaagctgagt"
+    "transcripts": [],
+    "gene": "ENSRNOG00000007001"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Acyl-CoA thioesterase 2",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IMX8",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6IMX8",
           "name": "Acyl-CoA thioesterase 2",
-          "interactions": {},
+          "enzyme_and_pathway": ["BRENDA: 3.1.2.2."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IMX8"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000013515",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010134;r=6:118076658-118083477;t=ENSRNOT00000013515"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010134;r=6:107460668-107467487;t=ENSRNOT00000013515"
       }
     ],
     "gene": "ENSRNOG00000010134",
@@ -1379,86 +1236,84 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:LOC362840 (Predicted), isoform CRA_c",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC19",
           "uniprot_url": "http://www.uniprot.org/uniprot/B1WC19",
           "name": "LOC362840 (Predicted), isoform CRA_c",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC19"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000015869",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011489;r=7:12781190-12788308;t=ENSRNOT00000015869"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011489;r=7:12611310-12618615;t=ENSRNOT00000015869"
       }
     ],
     "gene": "ENSRNOG00000011489",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
+      "SNRPA",
       "FUS",
-      "FUS",
-      "MBNL1",
-      "MBNL1",
-      "ELAVL1"
+      "EIF4B",
+      "Vts1",
+      "SFRS1",
+      "SFRS1"
     ],
-    "three_prime": "cctgctgtgtgcttatttttggggttggtggggtgggagagatgagacta"
+    "three_prime": "ggggtgggagagatgagactaggtcactgaggctggagatctggacgtgg"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F7FJ19",
           "uniprot_url": "http://www.uniprot.org/uniprot/F7FJ19",
           "name": "Methionine aminopeptidase",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_337505."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F7FJ19"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000031571",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021881;r=7:34821204-34853497;t=ENSRNOT00000031571"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021881;r=7:34762231-34789479;t=ENSRNOT00000031571"
       },
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Methionine aminopeptidaseUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653(EC:3.4.11.18UniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU003653",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LRI8",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LRI8",
           "name": "Methionine aminopeptidase",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_337505."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LRI8"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000030056",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021881;r=7:34821204-34853497;t=ENSRNOT00000030056"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021881;r=7:34762231-34789479;t=ENSRNOT00000030056"
       }
     ],
     "gene": "ENSRNOG00000021881",
@@ -1477,28 +1332,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Slc35e3",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B2GUZ8",
           "uniprot_url": "http://www.uniprot.org/uniprot/B2GUZ8",
           "name": "Protein Slc35e3",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000031609."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B2GUZ8"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000029493",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000027622;r=7:60765042-60778112;t=ENSRNOT00000029493"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000027622;r=7:60765079-60778136;t=ENSRNOT00000029493"
       }
     ],
     "gene": "ENSRNOG00000027622",
@@ -1516,28 +1368,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Repressor of RNA polymerase III transcription MAF1 homolo",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5XIH0",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5XIH0",
           "name": "Repressor of RNA polymerase III transcription MAF1 homolog",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000018240."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5XIH0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000018240",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000013514;r=7:117405317-117408349;t=ENSRNOT00000018240"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000013514;r=7:117417687-117420719;t=ENSRNOT00000018240"
       }
     ],
     "gene": "ENSRNOG00000013514",
@@ -1558,40 +1407,30 @@
   {
     "transcripts": [
       {
-        "protein": {
-          "sites": [
-            {
-              "positions": "520&nbsp;&ndash;&nbsp;520",
-              "length": "1",
-              "feature_key": "Active site",
-              "description": "Sequence Analysis"
-            }
-          ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
-          "name": "85/88 kDa calcium-independent phospholipase A2",
-          "interactions": [
-            "IntAct - P97570.1 interaction.",
-            "STRING - 10116.ENSRNOP00000017104."
-          ],
-          "keywords_molecular_function": "Hydrolase",
-          "keywords_ligand": "Calmodulin-binding",
-          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P97570"
-        },
-        "transcript": "ENSRNOT00000017108",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120512623-120552754;t=ENSRNOT00000017108"
+        "protein": {},
+        "transcript": "ENSRNOT00000090565",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120519467-120559347;t=ENSRNOT00000090565"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000087344",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120519467-120559347;t=ENSRNOT00000087344"
       },
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P97570",
+          "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
+          "name": "85/88 kDa calcium-independent phospholipase A2",
+          "enzyme_and_pathway": ["Reactome: REACT_279487."],
           "sites": [
             {
               "positions": "520&nbsp;&ndash;&nbsp;520",
@@ -1600,28 +1439,40 @@
               "description": "Sequence Analysis"
             }
           ],
+          "keywords_molecular_function": "Hydrolase",
+          "keywords_ligand": "Calmodulin-binding"
+        },
+        "transcript": "ENSRNOT00000017108",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120519467-120559347;t=ENSRNOT00000017108"
+      },
+      {
+        "protein": {
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:85/88 kDa calcium-independent phospholipase A2(EC:3.1.1.4)Short name:CaI-PLA2\nAlternative name(s):Group VI phospholipase A2Short name:GVI PLA2Intracellular membrane-associated calcium-independent phospholipase A2 betaShort name:iPLA2-betaPatatin-like phospholipase domain-containing protein 9Short name:PNPLA",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P97570",
           "uniprot_url": "http://www.uniprot.org/uniprot/P97570",
           "name": "85/88 kDa calcium-independent phospholipase A2",
-          "interactions": [
-            "IntAct - P97570.1 interaction.",
-            "STRING - 10116.ENSRNOP00000017104."
+          "enzyme_and_pathway": ["Reactome: REACT_279487."],
+          "sites": [
+            {
+              "positions": "520&nbsp;&ndash;&nbsp;520",
+              "length": "1",
+              "feature_key": "Active site",
+              "description": "Sequence Analysis"
+            }
           ],
           "keywords_molecular_function": "Hydrolase",
-          "keywords_ligand": "Calmodulin-binding",
-          "keywords_biological_process": "Chemotaxis, Lipid degradation, Lipid metabolism",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P97570"
+          "keywords_ligand": "Calmodulin-binding"
         },
         "transcript": "ENSRNOT00000016827",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120512623-120552754;t=ENSRNOT00000016827"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012295;r=7:120519467-120559347;t=ENSRNOT00000016827"
       }
     ],
     "gene": "ENSRNOG00000012295",
@@ -1629,62 +1480,56 @@
     "three_prime_proteins": [
       "MBNL1",
       "RBMX",
+      "RBMX",
       "RBMX"
     ],
-    "three_prime": "aagttcacctgtgcaatgtgtgccacgtacggatgtgctgttcccagccc"
+    "three_prime": "gttcacctgtgcaatgtgtgccacgtacggatgtgctgttcccagccccg"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Atg4d",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/M0R5T6",
+          "uniprot_url": "http://www.uniprot.org/uniprot/M0R5T6",
+          "name": "Protein Atg4d",
+          "enzyme_and_pathway": {},
           "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000075174",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000047625;r=8:22291445-22301331;t=ENSRNOT00000075174"
+      },
+      {
+        "protein": {
           "names_and_taxonomy": {
             "taxonomic_lineage": "10116 > NCBI",
             "organism": "Name:Atg4d",
             "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
-            "proteomes": [
-              "cellular organisms",
-              "Eukaryota",
-              "Opisthokonta",
-              "Metazoa",
-              "Eumetazoa",
-              "Bilateria",
-              "Deuterostomia",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Gnathostomata",
-              "Teleostomi",
-              "Euteleostomi",
-              "Sarcopterygii",
-              "Dipnotetrapodomorpha",
-              "Tetrapoda",
-              "Amniota",
-              "Mammalia",
-              "Theria",
-              "Eutheria",
-              "Boreoeutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ]
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
           },
-          "uniprot_url": "http://www.uniprot.org/uniprot/B4F756",
-          "name": "Atg4d protein",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
+          "interactions": "",
           "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B4F756"
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q3B7D7",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q3B7D7",
+          "name": "Atg4d protein",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
         },
-        "transcript": "ENSRNOT00000075174",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000047625;r=8:22344081-22353967;t=ENSRNOT00000075174"
+        "transcript": "ENSRNOT00000083194",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000047625;r=8:22291445-22301331;t=ENSRNOT00000083194"
       }
     ],
     "gene": "ENSRNOG00000047625",
@@ -1698,44 +1543,61 @@
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000078159",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000008691;r=8:85413537-85472694;t=ENSRNOT00000078159"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Serine/threonine-protein kinase ICK",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V760",
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V760",
           "name": "Serine/threonine-protein kinase ICK",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V760"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000012257",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000008691;r=8:84982701-85037684;t=ENSRNOT00000012257"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000008691;r=8:85413537-85472694;t=ENSRNOT00000012257"
       }
     ],
     "gene": "ENSRNOG00000008691",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "Pum2",
-      "SFRS1",
+      "KHDRBS3",
       "KHDRBS3",
       "ELAVL1",
       "ELAVL1"
     ],
-    "three_prime": "aaaactgggtctcattattttcttaaacaacagcattttgtatatatgga"
+    "three_prime": "ttttgtataaaattattttattctaaaactgggtctcattattttcttaa"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Acyl-CoA dehydrogenase family member 11(EC:1.3.99.-)Short name:ACAD-1",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B3DMA2",
+          "uniprot_url": "http://www.uniprot.org/uniprot/B3DMA2",
+          "name": "Acyl-CoA dehydrogenase family member 11",
+          "enzyme_and_pathway": {},
           "sites": [
             {
               "positions": "513&nbsp;&ndash;&nbsp;513",
@@ -1780,27 +1642,16 @@
               "description": "FAD"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Acyl-CoA dehydrogenase family member 11(EC:1.3.99.-)Short name:ACAD-1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/B3DMA2",
-          "name": "Acyl-CoA dehydrogenase family member 11",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000014636."
-          ],
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B3DMA2"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000038383",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010940;r=8:111982416-112062756;t=ENSRNOT00000038383"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010940;r=8:112594691-112676280;t=ENSRNOT00000038383"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000081281",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000010940;r=8:112594691-112676280;t=ENSRNOT00000081281"
       }
     ],
     "gene": "ENSRNOG00000010940",
@@ -1822,162 +1673,155 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Ctdsp1 protein",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC24",
           "uniprot_url": "http://www.uniprot.org/uniprot/B1WC24",
           "name": "Ctdsp1 protein",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000020646."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/B1WC24"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000020646",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81313441-81442524;t=ENSRNOT00000020646"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000020646"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000085323",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000085323"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000090832",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000090832"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000086282",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000086282"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000081073",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000081073"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000080062",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015295;r=9:81672758-81677979;t=ENSRNOT00000080062"
       }
     ],
     "gene": "ENSRNOG00000015295",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
+      "YTHDC1",
       "EIF4B",
       "ELAVL1",
       "SFRS1"
     ],
-    "three_prime": "actattctgcctctgtggttttttttttctttttgggaggggacttggag"
+    "three_prime": "ttctgcctctgtggttttttttttctttttgggaggggacttggagtgcg"
+  },
+  {
+    "transcripts": [],
+    "gene": "ENSRNOG00000048373"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "UP000002494&#xd;\n&lt;p>A UniProt &lt;a href=\"/manual/proteomes_manual\">proteome&lt;/a> can consist of several components. &lt;br />The component name refers to the genomic component encoding a set of proteins. &lt;br />These range from a single component such as Viral genomes to several components as in the case of eukaryotic chromosomes. They may also represent different stages in a genome project and include components such as contigs, scaffolds or Whole Genome Shotgun (WGS) master records.&lt;/p>&lt;p>&lt;a href='../manual/proteome_component' target='_top'>More...&lt;/a>&lt;/p>Componenti: Chromosome 1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/M0RAU7",
-          "name": "Uncharacterized protein",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/M0RAU7"
-        },
-        "transcript": "ENSRNOT00000075591",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000048373;r=10:579152-583068;t=ENSRNOT00000075591"
-      }
-    ],
-    "gene": "ENSRNOG00000048373",
-    "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": [
-      "NONO",
-      "MBNL1",
-      "SFRS13A",
-      "KHDRBS3"
-    ],
-    "three_prime": "actcctgtgttggttcttaccctcctgctcctaaagggagtgagatggtt"
-  },
-  {
-    "transcripts": [
-      {
-        "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Recommended name:Golgi apparatus membrane protein TVP23 homologUniRule annotation&#xd;\n&lt;p>Information which has been generated by the UniProtKB automatic annotation system, without manual validation.&lt;/p>&#xd;\n&#xd;\n&#xd;\n\t&lt;p>&lt;a href=\"/manual/evidences#ECO:0000256\">More\u2026&lt;/a>&lt;/p>Automatic assertion according to rulesiRuleBase:RU36120",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A2T2",
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A2T2",
           "name": "Golgi apparatus membrane protein TVP23 homolog",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A2T2"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000029359",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000025545;r=10:4123748-4158380;t=ENSRNOT00000029359"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000025545;r=10:5300384-5334262;t=ENSRNOT00000029359"
       }
     ],
     "gene": "ENSRNOG00000025545",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "SNRPA",
+      "NONO",
+      "EIF4B",
+      "EIF4B",
+      "EIF4B",
       "MBNL1",
-      "ELAVL1"
+      "RBMX",
+      "SFRS1",
+      "KHDRBS3",
+      "RBMX",
+      "SFRS1"
     ],
-    "three_prime": "aaaactagtatttctcatggtcttctttatcggggagggggatgctgaag"
+    "three_prime": "atccgctaacccgcagccctggaagatgataatataaggaagggaaccag"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:E3 ubiquitin-protein ligase MGRN1(EC:6.3.2.-)\nAlternative name(s):Mahogunin RING finger protein ",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "Ubl conjugation pathway",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5XIQ4",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q5XIQ4",
+          "name": "E3 ubiquitin-protein ligase MGRN1",
+          "enzyme_and_pathway": [
+            "Reactome: REACT_312094.",
+            "UniPathway: UPA00143"
+          ],
           "sites": {},
+          "keywords_molecular_function": "Ligase",
+          "keywords_ligand": "Metal-binding, Zinc"
+        },
+        "transcript": "ENSRNOT00000004416",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003234;r=10:10833519-10881977;t=ENSRNOT00000004416"
+      },
+      {
+        "protein": {
           "names_and_taxonomy": {
             "taxonomic_lineage": "10116 > NCBI",
             "organism": "Name:Mgrn1",
             "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
-            "proteomes": [
-              "cellular organisms",
-              "Eukaryota",
-              "Opisthokonta",
-              "Metazoa",
-              "Eumetazoa",
-              "Bilateria",
-              "Deuterostomia",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Gnathostomata",
-              "Teleostomi",
-              "Euteleostomi",
-              "Sarcopterygii",
-              "Dipnotetrapodomorpha",
-              "Tetrapoda",
-              "Amniota",
-              "Mammalia",
-              "Theria",
-              "Eutheria",
-              "Boreoeutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ]
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
           },
-          "uniprot_url": "http://www.uniprot.org/uniprot/G3C8Z1",
-          "name": "E3 ubiquitin-protein ligase MGRN1 isoform I",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
+          "interactions": "",
           "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3C8Z1"
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZEH9",
+          "uniprot_url": "http://www.uniprot.org/uniprot/D3ZEH9",
+          "name": "E3 ubiquitin-protein ligase MGRN1 isoform II",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
         },
-        "transcript": "ENSRNOT00000004416",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003234;r=10:9600449-9648907;t=ENSRNOT00000004416"
+        "transcript": "ENSRNOT00000087118",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000003234;r=10:10833519-10881977;t=ENSRNOT00000087118"
       }
     ],
     "gene": "ENSRNOG00000003234",
@@ -1993,26 +1837,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Zfp213",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A1V0",
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A1V0",
           "name": "Protein Zfp213",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A1V0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000030704",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021872;r=10:12706830-12713743;t=ENSRNOT00000030704"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000021872;r=10:12885533-12892446;t=ENSRNOT00000030704"
       }
     ],
     "gene": "ENSRNOG00000021872",
@@ -2028,26 +1871,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Spag7",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZCG4",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZCG4",
           "name": "Protein Spag7",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZCG4"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000005653",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000004246;r=10:57030583-57036740;t=ENSRNOT00000005653"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000004246;r=10:57284989-57291146;t=ENSRNOT00000005653"
       }
     ],
     "gene": "ENSRNOG00000004246",
@@ -2067,72 +1909,76 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "Transcription, Transcription regulation",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P25977",
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
-          "interactions": [
-            "DIP - DIP-60265N.",
-            "STRING - 10116.ENSRNOP00000063740."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_280841."],
+          "sites": {},
           "keywords_molecular_function": "Activator",
-          "keywords_ligand": "DNA-binding",
-          "keywords_biological_process": "Transcription, Transcription regulation",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P25977"
+          "keywords_ligand": "DNA-binding"
         },
         "transcript": "ENSRNOT00000064283",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020937;r=10:90038146-90051350;t=ENSRNOT00000064283"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020937;r=10:90250275-90265017;t=ENSRNOT00000064283"
       },
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Nucleolar transcription factor 1\nAlternative name(s):Upstream-binding factor 1Short name:UBF-",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "Transcription, Transcription regulation",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P25977",
           "uniprot_url": "http://www.uniprot.org/uniprot/P25977",
           "name": "Nucleolar transcription factor 1",
-          "interactions": [
-            "DIP - DIP-60265N.",
-            "STRING - 10116.ENSRNOP00000063740."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_280841."],
+          "sites": {},
           "keywords_molecular_function": "Activator",
-          "keywords_ligand": "DNA-binding",
-          "keywords_biological_process": "Transcription, Transcription regulation",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P25977"
+          "keywords_ligand": "DNA-binding"
         },
         "transcript": "ENSRNOT00000048418",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020937;r=10:90038146-90051350;t=ENSRNOT00000048418"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000020937;r=10:90250275-90265017;t=ENSRNOT00000048418"
       }
     ],
     "gene": "ENSRNOG00000020937",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "sap-49",
-      "PABPC1",
-      "PABPC1",
-      "SFRS9",
+      "FUS",
+      "FUS",
+      "EIF4B",
       "SFRS1"
     ],
-    "three_prime": "aaaaaatggtcttgatatgcgtaggatgtgtgtgaagcactgtgtgtgtg"
+    "three_prime": "cttttcgtctggtcactggaataagtaagtgggtggcagggtgacccaat"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:cAMP-dependent protein kinase type I-alpha regulatory subunitCleaved into the following chain:cAMP-dependent protein kinase type I-alpha regulatory subunit, N-terminally processe",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P09456",
+          "uniprot_url": "http://www.uniprot.org/uniprot/P09456",
+          "name": "cAMP-dependent protein kinase type I-alpha regulatory subunit",
+          "enzyme_and_pathway": ["Reactome: REACT_275619."],
           "sites": [
             {
               "positions": "202&nbsp;&ndash;&nbsp;202",
@@ -2159,29 +2005,11 @@
               "description": "cAMP 2"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:cAMP-dependent protein kinase type I-alpha regulatory subunitCleaved into the following chain:cAMP-dependent protein kinase type I-alpha regulatory subunit, N-terminally processe",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/P09456",
-          "name": "cAMP-dependent protein kinase type I-alpha regulatory subunit",
-          "interactions": [
-            "IntAct - P09456.1 interaction.",
-            "MINT - MINT-1775716.",
-            "STRING - 10116.ENSRNOP00000061445."
-          ],
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P09456"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000071153",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000049876;r=10:97655261-97671804;t=ENSRNOT00000071153"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000049876;r=10:97940705-97957336;t=ENSRNOT00000071153"
       }
     ],
     "gene": "ENSRNOG00000049876",
@@ -2197,26 +2025,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Hypothetical LOC287798",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q4FZS5",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q4FZS5",
           "name": "Hypothetical LOC287798",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q4FZS5"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000037371",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000024780;r=10:101879212-101890139;t=ENSRNOT00000037371"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000024780;r=10:102199837-102210764;t=ENSRNOT00000037371"
       }
     ],
     "gene": "ENSRNOG00000024780",
@@ -2232,70 +2059,76 @@
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000088474",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000036662;r=10:110525749-110555761;t=ENSRNOT00000088474"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Submitted name:Protein Wdr45b",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q2MCP5",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q2MCP5",
           "name": "Protein Wdr45b",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000051801."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q2MCP5"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000054918",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000036662;r=10:110111643-110141197;t=ENSRNOT00000054918"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000036662;r=10:110525749-110555761;t=ENSRNOT00000054918"
       }
     ],
     "gene": "ENSRNOG00000036662",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "A2BP1",
-      "a2bp1",
-      "Pum2",
-      "KHDRBS3",
-      "KHDRBS3",
-      "ELAVL1",
+      "FUS",
+      "FUS",
+      "Vts1",
+      "RBMX",
+      "RBMX",
+      "RBMX",
+      "RBMX",
+      "SFRS1",
       "ELAVL1"
     ],
-    "three_prime": "aagtatgcatgttaccttatgtgtatttaatcatgaaacttaattttgca"
+    "three_prime": "ggtgatgccaccatccagctgccctgtggatttctggggctggtgccagt"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein C2cd2",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P691",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6P691",
           "name": "Protein C2cd2",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000002209."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6P691"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000002209",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001621;r=11:41867287-41929895;t=ENSRNOT00000002209"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001621;r=11:38357424-38420119;t=ENSRNOT00000002209"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000080681",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001621;r=11:38357424-38420119;t=ENSRNOT00000080681"
       }
     ],
     "gene": "ENSRNOG00000001621",
@@ -2312,150 +2145,44 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1LM15",
-          "name": "Homeobox protein cut-like 1",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LM15"
-        },
-        "transcript": "ENSRNOT00000001928",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001424;r=12:25151530-25469669;t=ENSRNOT00000001928"
-      },
-      {
-        "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Homeobox protein cut-like 1\nAlternative name(s):CCAAT displacement proteinShort name:CDPCDP2Homeobox protein cux-",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "Transcription, Transcription regulation",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P53565",
           "uniprot_url": "http://www.uniprot.org/uniprot/P53565",
           "name": "Homeobox protein cut-like 1",
-          "interactions": [
-            "IntAct - P53565.1 interaction.",
-            "MINT - MINT-4573965.",
-            "STRING - 10116.ENSRNOP00000001928."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "Developmental protein, Repressor",
-          "keywords_ligand": "DNA-binding",
-          "keywords_biological_process": "Transcription, Transcription regulation",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P53565"
+          "keywords_ligand": "DNA-binding"
         },
         "transcript": "ENSRNOT00000059486",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001424;r=12:25151530-25469669;t=ENSRNOT00000059486"
-      },
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/M0R4T1",
-          "name": "Homeobox protein cut-like 1",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/M0R4T1"
-        },
-        "transcript": "ENSRNOT00000075031",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001424;r=12:25151530-25469669;t=ENSRNOT00000075031"
-      },
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Homeobox protein cut-like 1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/F1M8J7",
-          "name": "Homeobox protein cut-like 1",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1M8J7"
-        },
-        "transcript": "ENSRNOT00000044841",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001424;r=12:25151530-25469669;t=ENSRNOT00000044841"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000001424;r=12:23151180-23445074;t=ENSRNOT00000059486"
       }
     ],
     "gene": "ENSRNOG00000001424",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "ZFP36",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "PABPC1",
-      "EIF4B",
-      "SFRS1",
-      "SFRS13A",
-      "SFRS13A"
+      "RBMX",
+      "Vts1"
     ],
-    "three_prime": "aacaaaaaaaagaaaaaaaaagaaaagtcacatcaggaaaaatatctgat"
+    "three_prime": "tgagggcgccgggcctctgggcctgaccagcagggcctcgccgggctagc"
   },
   {
     "transcripts": [
       {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat)",
-            "protein_names": "Submitted name:Protein Frg1l1",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/D3ZRG9",
-          "name": "Protein Frg1l1",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZRG9"
-        },
+        "protein": {},
         "transcript": "ENSRNOT00000001279",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000964;r=12:35899612-35900388;t=ENSRNOT00000001279"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000964;r=12:34003895-34004671;t=ENSRNOT00000001279"
       }
     ],
     "gene": "ENSRNOG00000000964",
-    "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "ELAVL2",
       "MBNL1",
@@ -2470,28 +2197,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Pleckstrin homology-like domain family A member 3\nAlternative name(s):TDAG51/Ipl homolog ",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5PQT7",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5PQT7",
           "name": "Pleckstrin homology-like domain family A member 3",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000011999."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5PQT7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000011999",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009068;r=13:57637217-57640301;t=ENSRNOT00000011999"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000009068;r=13:52588917-52592001;t=ENSRNOT00000011999"
       }
     ],
     "gene": "ENSRNOG00000009068",
@@ -2509,26 +2233,30 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Kifap3",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZWA5",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZWA5",
           "name": "Protein Kifap3",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_296088."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZWA5"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000063810",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000002544;r=13:86953394-87089644;t=ENSRNOT00000063810"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000002544;r=13:82072497-82217252;t=ENSRNOT00000063810"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000085135",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000002544;r=13:82072497-82217252;t=ENSRNOT00000085135"
       }
     ],
     "gene": "ENSRNOG00000002544",
@@ -2549,65 +2277,32 @@
     "three_prime": "atcagcactgtccaactctcatttttacgactaaaaaaaaaaatctatgg"
   },
   {
-    "transcripts": [
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:MORF4 family-associated protein 1\nAlternative name(s):T-cell activation protein-related protei",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/Q5M820",
-          "name": "MORF4 family-associated protein 1",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5M820"
-        },
-        "transcript": "ENSRNOT00000008121",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000049066;r=14:87168640-87170324;t=ENSRNOT00000008121"
-      }
-    ],
-    "gene": "ENSRNOG00000049066",
-    "organism": "Rattus norvegicus (Rat)",
-    "three_prime_proteins": [
-      "MBNL1",
-      "RBMX",
-      "ELAVL1",
-      "SFRS13A"
-    ],
-    "three_prime": "gcccagagagttattaagtcttcattcagcggcctgtgcttagtttgcat"
+    "transcripts": [],
+    "gene": "ENSRNOG00000049066"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Supt16h",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A4J0",
           "uniprot_url": "http://www.uniprot.org/uniprot/D4A4J0",
           "name": "Protein Supt16h",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_273293."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D4A4J0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000016288",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011953;r=15:32385746-32422213;t=ENSRNOT00000016288"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000011953;r=15:28575480-28611946;t=ENSRNOT00000016288"
       }
     ],
     "gene": "ENSRNOG00000011953",
@@ -2626,148 +2321,148 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:ER membrane protein complex subunit 9\nAlternative name(s):Protein FAM158",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U1W7",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q5U1W7",
           "name": "ER membrane protein complex subunit 9",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000026001."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q5U1W7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000026001",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000019162;r=15:38149137-38153351;t=ENSRNOT00000026001"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000019162;r=15:34256374-34263224;t=ENSRNOT00000026001"
       }
     ],
     "gene": "ENSRNOG00000019162",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "NONO",
       "EIF4B",
-      "Pum2",
+      "FUS",
       "SFRS9",
+      "SFRS9",
+      "Vts1",
       "EIF4B",
-      "RBMX",
+      "Vts1",
       "SFRS1",
-      "ELAVL1",
-      "SFRS1",
-      "ELAVL1"
+      "SFRS1"
     ],
-    "three_prime": "aactatgtatttattgtgtttggaaggcagagtgagggaggagaccccag"
+    "three_prime": "ttctggcagtaggctaaggagcaggacccccaactcaggtgcgggggggt"
   },
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000080467",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000029264;r=16:20336638-20348804;t=ENSRNOT00000080467"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Small conductance calcium-activated potassium channel protein 1Short name:SK1Short name:SKCa 1Short name:SKCa1\nAlternative name(s):KCa2.",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "Ion transport, Transport",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P70606",
           "uniprot_url": "http://www.uniprot.org/uniprot/P70606",
           "name": "Small conductance calcium-activated potassium channel protein 1",
-          "interactions": [
-            "IntAct - P70606.1 interaction.",
-            "MINT - MINT-7138580."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_291627."],
+          "sites": {},
           "keywords_molecular_function": "Ion channel",
-          "keywords_ligand": "Calmodulin-binding",
-          "keywords_biological_process": "Ion transport, Transport",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P70606"
+          "keywords_ligand": "Calmodulin-binding"
         },
         "transcript": "ENSRNOT00000044291",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000029264;r=16:20194361-20205054;t=ENSRNOT00000044291"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000029264;r=16:20336638-20348804;t=ENSRNOT00000044291"
       }
     ],
     "gene": "ENSRNOG00000029264",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
+      "FUS",
       "MBNL1",
       "MBNL1",
       "Vts1",
-      "YTHDC1",
-      "RBMX",
-      "RBMX",
-      "KHDRBS3"
+      "Vts1",
+      "ELAVL1",
+      "SFRS1",
+      "ELAVL1"
     ],
-    "three_prime": "gggcctgctggtcactagactgcttaatcttggccattgtgtggccacag"
+    "three_prime": "tggagcggggggtggggctggttttatttccctgctgctatggggcaagt"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:GATA zinc finger domain containing 2A",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8R7",
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V8R7",
           "name": "GATA zinc finger domain containing 2A",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_280841."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V8R7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027943",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000022173;r=16:21093916-21184110;t=ENSRNOT00000027943"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000022173;r=16:21178138-21268504;t=ENSRNOT00000027943"
       }
     ],
     "gene": "ENSRNOG00000022173",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
       "Pum2",
-      "RBMX"
+      "ACO1",
+      "KHSRP",
+      "RBMX",
+      "RBMX",
+      "ELAVL1",
+      "KHDRBS3",
+      "ELAVL1"
     ],
-    "three_prime": "ttgcacctccacacctggcttgtaactttcctgtctatccctggggaggt"
+    "three_prime": "cagctgtattgttccttaatttccttgggctccagtgttttgtcccagct"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Submitted name:1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q0ZFS7",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0ZFS7",
           "name": "1-acylglycerol-3-phosphate O-acyltransferase 6 (Lysophosphatidic acid acyltransferase, zeta)",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000024392."
-          ],
+          "enzyme_and_pathway": ["Reactome: REACT_284108."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q0ZFS7"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000024392",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000018077;r=16:73249356-73282217;t=ENSRNOT00000024392"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000018077;r=16:73615949-73649767;t=ENSRNOT00000024392"
       }
     ],
     "gene": "ENSRNOG00000018077",
@@ -2783,62 +2478,66 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Dip2c",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZZB0",
           "uniprot_url": "http://www.uniprot.org/uniprot/D3ZZB0",
           "name": "Protein Dip2c",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D3ZZB0"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000020634",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015288;r=17:65192742-65571872;t=ENSRNOT00000020634"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015288;r=17:63635086-63808464;t=ENSRNOT00000020634"
       }
     ],
     "gene": "ENSRNOG00000015288",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "EIF4B",
-      "RBMX",
+      "ELAVL2",
+      "ELAVL2",
+      "ELAVL2",
+      "ELAVL2",
+      "KHDRBS3",
+      "ELAVL1",
+      "ELAVL1",
+      "ELAVL1",
       "ELAVL1",
       "ELAVL1"
     ],
-    "three_prime": "tctcatcaccttggtttccacagactttctacggacgtgaccgtttttct"
+    "three_prime": "atttgttgcataatgtcaattttattttattttagcatttttgtgtcact"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Cables1",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LUR9",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LUR9",
           "name": "Protein Cables1",
-          "interactions": {},
+          "enzyme_and_pathway": ["Reactome: REACT_275619."],
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LUR9"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000017187",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012795;r=18:3328555-3432388;t=ENSRNOT00000017187"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000012795;r=18:3317724-3421721;t=ENSRNOT00000017187"
       }
     ],
     "gene": "ENSRNOG00000012795",
@@ -2854,28 +2553,47 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Ss18",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/D4ABC5",
           "uniprot_url": "http://www.uniprot.org/uniprot/D4ABC5",
           "name": "Protein Ss18",
-          "interactions": [
-            "IntAct - D4ABC5.1 interaction."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/D4ABC5"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000032454",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016800;r=18:5987818-6050274;t=ENSRNOT00000032454"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016800;r=18:6020267-6083033;t=ENSRNOT00000032454"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Ss18",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
+            "taxonomic_identifier": "Rattus norvegicus (Rat)",
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/B0BN04",
+          "uniprot_url": "http://www.uniprot.org/uniprot/B0BN04",
+          "name": "Ss18 protein",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000086335",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000016800;r=18:6020267-6083033;t=ENSRNOT00000086335"
       }
     ],
     "gene": "ENSRNOG00000016800",
@@ -2892,70 +2610,57 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "10116 > NCBI",
             "organism": "Name:Dnajc18",
             "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
             "taxonomic_identifier": "Rattus norvegicus (Rat)",
-            "proteomes": [
-              "cellular organisms",
-              "Eukaryota",
-              "Opisthokonta",
-              "Metazoa",
-              "Eumetazoa",
-              "Bilateria",
-              "Deuterostomia",
-              "Chordata",
-              "Craniata",
-              "Vertebrata",
-              "Gnathostomata",
-              "Teleostomi",
-              "Euteleostomi",
-              "Sarcopterygii",
-              "Dipnotetrapodomorpha",
-              "Tetrapoda",
-              "Amniota",
-              "Mammalia",
-              "Theria",
-              "Eutheria",
-              "Boreoeutheria",
-              "Euarchontoglires",
-              "Glires",
-              "Rodentia",
-              "Sciurognathi",
-              "Muroidea",
-              "Muridae",
-              "Murinae",
-              "Rattus"
-            ]
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q0H8V1",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q0H8V1",
           "name": "DNAJC18",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000027194."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q0H8V1"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000027194",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000019995;r=18:28179461-28206342;t=ENSRNOT00000027194"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000019995;r=18:28466311-28495937;t=ENSRNOT00000027194"
       }
     ],
     "gene": "ENSRNOG00000019995",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "MBNL1",
-      "SFRS13A"
+      "ELAVL2",
+      "KHDRBS3",
+      "ELAVL1"
     ],
-    "three_prime": "agtactctactatctgctaactttgttgggcagagagctgcagcggatgg"
+    "three_prime": "ggttcctttattttcttagtcttctctttcagatggtcaagaagtaaaat"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Peroxisomal multifunctional enzyme type 2Short name:MFE-2\nAlternative name(s):17-beta-hydroxysteroid dehydrogenase 4Short name:17-beta-HSD 4D-bifunctional proteinShort name:DBPMultifunctional protein 2Short name:MPF-2Cleaved into the following 2 chains:(3R)-hydroxyacyl-CoA dehydrogenase(EC:1.1.1.n12)Enoyl-CoA hydratase 2(EC:4.2.1.107,EC:4.2.1.119)\nAlternative name(s):3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratas",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "Fatty acid metabolism, Lipid metabolism",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/P97852",
+          "uniprot_url": "http://www.uniprot.org/uniprot/P97852",
+          "name": "Peroxisomal multifunctional enzyme type 2",
+          "enzyme_and_pathway": [
+            "BioCyc: MetaCyc:MONOMER-14329.",
+            "Reactome: REACT_298905.",
+            "UniPathway: UPA00659"
+          ],
           "sites": [
             {
               "positions": "21&nbsp;&ndash;&nbsp;21",
@@ -3018,44 +2723,89 @@
               "description": "Substrate"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Peroxisomal multifunctional enzyme type 2Short name:MFE-2\nAlternative name(s):17-beta-hydroxysteroid dehydrogenase 4Short name:17-beta-HSD 4D-bifunctional proteinShort name:DBPMultifunctional protein 2Short name:MPF-2Cleaved into the following 2 chains:(3R)-hydroxyacyl-CoA dehydrogenase(EC:1.1.1.n12)Enoyl-CoA hydratase 2(EC:4.2.1.107,EC:4.2.1.119)\nAlternative name(s):3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratas",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/P97852",
-          "name": "Peroxisomal multifunctional enzyme type 2",
-          "interactions": [
-            "IntAct - P97852.1 interaction.",
-            "STRING - 10116.ENSRNOP00000043755."
-          ],
           "keywords_molecular_function": "Isomerase, Lyase, Oxidoreductase",
-          "keywords_ligand": "NAD",
-          "keywords_biological_process": "Fatty acid metabolism, Lipid metabolism",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/P97852"
+          "keywords_ligand": "NAD"
         },
         "transcript": "ENSRNOT00000021646",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015840;r=18:44032347-44119545;t=ENSRNOT00000021646"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015840;r=18:44810388-44897640;t=ENSRNOT00000021646"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "10116 > NCBI",
+            "organism": "Name:Hsd17b4",
+            "protein_names": "cellular organisms&rsaquo;Eukaryota&rsaquo;Opisthokonta&rsaquo;Metazoa&rsaquo;Eumetazoa&rsaquo;Bilateria&rsaquo;Deuterostomia&rsaquo;Chordata&rsaquo;Craniata&rsaquo;Vertebrata&rsaquo;Gnathostomata&rsaquo;Teleostomi&rsaquo;Euteleostomi&rsaquo;Sarcopterygii&rsaquo;Dipnotetrapodomorpha&rsaquo;Tetrapoda&rsaquo;Amniota&rsaquo;Mammalia&rsaquo;Theria&rsaquo;Eutheria&rsaquo;Boreoeutheria&rsaquo;Euarchontoglires&rsaquo;Glires&rsaquo;Rodentia&rsaquo;Sciurognathi&rsaquo;Muroidea&rsaquo;Muridae&rsaquo;Murinae&rsaquo;Rattu",
+            "taxonomic_identifier": "Rattus norvegicus (Rat)",
+            "proteomes": "cellular organisms, Eukaryota, Opisthokonta, Metazoa, Eumetazoa, Bilateria, Deuterostomia, Chordata, Craniata, Vertebrata, Gnathostomata, Teleostomi, Euteleostomi, Sarcopterygii, Dipnotetrapodomorpha, Tetrapoda, Amniota, Mammalia, Theria, Eutheria, Boreoeutheria, Euarchontoglires, Glires, Rodentia, Sciurognathi, Muroidea, Muridae, Murinae, Rattus"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6IN39",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q6IN39",
+          "name": "Hsd17b4 protein",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000089750",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000015840;r=18:44810388-44897640;t=ENSRNOT00000089750"
       }
     ],
     "gene": "ENSRNOG00000015840",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "Pum2",
       "MBNL1",
-      "ELAVL1",
-      "ELAVL1"
+      "RBMX",
+      "KHDRBS3",
+      "SFRS1"
     ],
-    "three_prime": "tccctcactgcttctctctgcattgatcccctgtatttcatgaatttccc"
+    "three_prime": "tggagaattgaatgaataaaagccactttacctcgtctccctcactgctt"
   },
   {
     "transcripts": [
       {
         "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Submitted name:Protein LOC100363716",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q7TQ75",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q7TQ75",
+          "name": "Protein LOC100363716",
+          "enzyme_and_pathway": {},
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000051352",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017905;r=19:53629779-53646058;t=ENSRNOT00000051352"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000079382",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017905;r=19:53629779-53646058;t=ENSRNOT00000079382"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat",
+            "protein_names": "Recommended name:Microtubule-associated proteins 1A/1B light chain 3B\nAlternative name(s):Autophagy-related protein LC3 BAutophagy-related ubiquitin-like modifier LC3 BMAP1 light chain 3-like protein 2MAP1A/MAP1B light chain 3 BShort name:MAP1A/MAP1B LC3 BMicrotubule-associated protein 1 light chain 3 bet",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q62625",
+          "uniprot_url": "http://www.uniprot.org/uniprot/Q62625",
+          "name": "Microtubule-associated proteins 1A/1B light chain 3B",
+          "enzyme_and_pathway": {},
           "sites": [
             {
               "positions": "120&nbsp;&ndash;&nbsp;121",
@@ -3064,152 +2814,151 @@
               "description": "Cleavage; by ATG4B"
             }
           ],
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Recommended name:Microtubule-associated proteins 1A/1B light chain 3B\nAlternative name(s):Autophagy-related protein LC3 BAutophagy-related ubiquitin-like modifier LC3 BMAP1 light chain 3-like protein 2MAP1A/MAP1B light chain 3 BShort name:MAP1A/MAP1B LC3 BMicrotubule-associated protein 1 light chain 3 bet",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/Q62625",
-          "name": "Microtubule-associated proteins 1A/1B light chain 3B",
-          "interactions": [
-            "BioGrid - 249213.3 interactions.",
-            "IntAct - Q62625.7 interactions."
-          ],
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q62625"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000067141",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017905;r=19:64367214-64383493;t=ENSRNOT00000067141"
-      },
-      {
-        "protein": {
-          "sites": {},
-          "names_and_taxonomy": {
-            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
-            "organism": "Rattus norvegicus (Rat",
-            "protein_names": "Submitted name:Protein LOC100363716",
-            "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
-          },
-          "uniprot_url": "http://www.uniprot.org/uniprot/Q7TQ75",
-          "name": "Protein LOC100363716",
-          "interactions": {},
-          "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q7TQ75"
-        },
-        "transcript": "ENSRNOT00000051352",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017905;r=19:64367214-64383493;t=ENSRNOT00000051352"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000017905;r=19:53629779-53646058;t=ENSRNOT00000067141"
       }
     ],
     "gene": "ENSRNOG00000017905",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
-      "a2bp1",
-      "FUS",
-      "KHSRP",
-      "YTHDC1"
+      "RBMX",
+      "KHDRBS3",
+      "ELAVL1"
     ],
-    "three_prime": "acctgtcctgagtgttctctcatggtgtcagcatgggagccgcatcctgc"
+    "three_prime": "tgaccacagaacagaaaacttaaatatgattttttcttttgttatgagac"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000048376."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000045657",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000028501;r=19:65917257-65952371;t=ENSRNOT00000045657"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000028501;r=19:55197704-55241851;t=ENSRNOT00000045657"
       },
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat",
             "protein_names": "Recommended name:Zinc finger CCCH domain-containing protein 18\nAlternative name(s):Nuclear protein NHN",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6TQE1",
           "name": "Zinc finger CCCH domain-containing protein 18",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000048376."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6TQE1"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000039273",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000028501;r=19:65917257-65952371;t=ENSRNOT00000039273"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000028501;r=19:55197704-55241851;t=ENSRNOT00000039273"
       }
     ],
     "gene": "ENSRNOG00000028501",
     "organism": "Rattus norvegicus (Rat)",
     "three_prime_proteins": [
+      "FUS",
+      "SFRS9",
+      "MBNL1",
+      "MBNL1",
+      "RBMX",
       "EIF4B",
-      "YTHDC1",
-      "EIF4B",
-      "YTHDC1",
       "RBMX",
       "SFRS1"
     ],
-    "three_prime": "gaaggctgaacacttcctggactacaggcatccatcctccctcctcctcc"
+    "three_prime": "acccatgctttggctcacggtgggcagagccctccaggagagcggacgct"
   },
   {
     "transcripts": [
       {
+        "protein": {},
+        "transcript": "ENSRNOT00000090910",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000090910"
+      },
+      {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Znrd1as1",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LQH1",
           "uniprot_url": "http://www.uniprot.org/uniprot/F1LQH1",
           "name": "Protein Znrd1as1",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/F1LQH1"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000001011",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:4118986-4120402;t=ENSRNOT00000001011"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000001011"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000085106",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000085106"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000080381",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000080381"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000089216",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000089216"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000077991",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000077991"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000088308",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000088308"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000091225",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000091225"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000086937",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000086937"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000083413",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000778;r=20:2077072-2088389;t=ENSRNOT00000083413"
       }
     ],
     "gene": "ENSRNOG00000000778",
@@ -3220,34 +2969,58 @@
       "RBMX",
       "ELAVL1"
     ],
-    "three_prime": "agctttgctggcagaaccatgtttcttttctctttctttggggttggggg"
+    "three_prime": "gctttgctggcagaaccatgtttcttttctctttctttggggttgggggg"
   },
   {
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein Sar1a",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6AY18",
           "uniprot_url": "http://www.uniprot.org/uniprot/Q6AY18",
           "name": "Protein Sar1a",
-          "interactions": [
-            "STRING - 10116.ENSRNOP00000000673."
-          ],
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/Q6AY18"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000000673",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000557;r=20:33095744-33108149;t=ENSRNOT00000000673"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000557;r=20:31265483-31310674;t=ENSRNOT00000000673"
+      },
+      {
+        "protein": {
+          "names_and_taxonomy": {
+            "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
+            "organism": "Rattus norvegicus (Rat)",
+            "protein_names": "Submitted name:Protein Ppa1",
+            "taxonomic_identifier": "10116",
+            "proteomes": "UP000002494"
+          },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/F7EPH4",
+          "uniprot_url": "http://www.uniprot.org/uniprot/F7EPH4",
+          "name": "Protein Ppa1",
+          "enzyme_and_pathway": ["Reactome: REACT_314370."],
+          "sites": {},
+          "keywords_molecular_function": "",
+          "keywords_ligand": ""
+        },
+        "transcript": "ENSRNOT00000000674",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000557;r=20:31265483-31310674;t=ENSRNOT00000000674"
+      },
+      {
+        "protein": {},
+        "transcript": "ENSRNOT00000079584",
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000557;r=20:31265483-31310674;t=ENSRNOT00000079584"
       }
     ],
     "gene": "ENSRNOG00000000557",
@@ -3263,26 +3036,25 @@
     "transcripts": [
       {
         "protein": {
-          "sites": {},
           "names_and_taxonomy": {
             "taxonomic_lineage": "Eukaryota > Metazoa > Chordata > Craniata > Vertebrata > Euteleostomi > Mammalia > Eutheria > Euarchontoglires > Glires > Rodentia > Sciurognathi > Muroidea > Muridae > Murinae > Rattus",
             "organism": "Rattus norvegicus (Rat)",
             "protein_names": "Submitted name:Protein LOC606294",
             "taxonomic_identifier": "10116",
-            "proteomes": [
-              "UP000002494"
-            ]
+            "proteomes": "UP000002494"
           },
+          "interactions": "",
+          "keywords_biological_process": "",
+          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V614",
           "uniprot_url": "http://www.uniprot.org/uniprot/G3V614",
           "name": "Protein LOC606294",
-          "interactions": {},
+          "enzyme_and_pathway": {},
+          "sites": {},
           "keywords_molecular_function": "",
-          "keywords_ligand": "",
-          "keywords_biological_process": "",
-          "pdb_url": "http://www.rcsb.org/pdb/protein/G3V614"
+          "keywords_ligand": ""
         },
         "transcript": "ENSRNOT00000000444",
-        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000395;r=20:33976300-33995859;t=ENSRNOT00000000444"
+        "transcript_url": "http://www.ensembl.org/Rattus_norvegicus/Transcript/Summary?db=core;g=ENSRNOG00000000395;r=20:32191734-32211453;t=ENSRNOT00000000444"
       }
     ],
     "gene": "ENSRNOG00000000395",
@@ -3292,6 +3064,6 @@
       "SFRS1",
       "KHDRBS3"
     ],
-    "three_prime": "aactagcaagtgctttacccccctttttcttttaaaacaggatgtgtgtg"
+    "three_prime": "ctagcaagtgctttacccccctttttcttttaaaacaggatgtgtgtgtg"
   }
 ]
