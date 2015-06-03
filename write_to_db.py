@@ -30,6 +30,10 @@ try:
                          transcripts['protein']['keywords_biological_process'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
                         cur.execute("INSERT OR IGNORE INTO GeneTranscript VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['transcript'], gene['gene']))
                         cur.execute("INSERT OR IGNORE INTO TranscriptProtein VALUES(?,?,?,?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['protein']['name'], transcripts['transcript']))
+                if gene.get('three_prime_proteins'):
+                    for three_prime_protein in gene['three_prime_proteins']:
+                        cur.execute("INSERT OR IGNORE INTO ThreePrimeProtein VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), three_prime_protein, gene['gene']))
+
 
 
 
