@@ -12,7 +12,6 @@ module.exports = {
     port: 80,
     db: 'ProteinGenes.db',
     username: '',
-    password: '',
-    url : 'mongodb://<user>:<password>@<url>'
+    password: ''
   }
 };

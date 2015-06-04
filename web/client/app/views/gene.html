@@ -1,44 +1,112 @@
 <div data-ng-controller="geneController">
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#/">Protein Database</a>
-			</div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">Protein Database</a>
+            </div>
 
-			<ul class="nav navbar-nav navbar-right">
-				<select style="width: 120px; position: relative; top: 10px" class="form-control col-md-2" id="sel1">
-					<option>Genes</option>
-					<option>Proteins</option>
-				</select>
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-			</ul>
-		</div>
-	</nav>
+            <ul class="nav navbar-nav navbar-right">
+                <select style="width: 120px; position: relative; top: 10px" class="form-control col-md-2" id="sel1">
+                    <option>Genes</option>
+                    <option>Proteins</option>
+                </select>
 
-	<div class="container">
-		<div class="row">
-			<h1>{{name || 'Josefina'}}</h1>
-			<div>
-				<table class="table table-hover">
-					<!--<thead>
-					<tr>
-						<th>#</th>
-						<th>First Name</th>
-					</tr>
-					</thead>-->
-					<tbody>
-					<tr>
-						<th ng-repeat="(key, value) in gene" scope="row">{{key}}</th>
-						<td>{{value}}</td>
-					</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row col-md-11">
+            <h1>{{organism}}</h1>
+
+            <div>
+                <table class="table table-hover">
+                    <!--<thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                    </tr>
+                    </thead>-->
+                    <tbody>
+                    <tr ng-repeat="(key, value) in gene">
+                        <th scope="row">{{key}}</th>
+                        <td>{{value}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col-md-10 panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">Transcripts:</h1>
+                <!--<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>-->
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+                <span ng-repeat="transcript in transcripts">
+                    <h4>{{transcript['transcriptId']}}</h4>
+                    <br>
+                    <h5>Proteins that Connect to this Transcript:
+                    <div class="col-md-10 panel panel-default" ng-repeat="protein in proteins[transcript['transcriptId']]">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">{{protein[0]['name']}}:</h1>
+                            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover">
+                                <tbody>
+                                <tr ng-repeat="(key, value) in protein[0]">
+                                    <th scope="row">{{key}}</th>
+                                    <td>{{value}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <!--<h1>Transcripts:</h1>
+            <div class=" col-md-11 col-offset-4" ng-repeat="transcript in transcripts">
+                <h4>{{transcript['transcriptId']}}</h4>
+                <h4>Proteins:</h4>
+                <div>
+
+                </div>
+            </div>
+    </div>-->
+    </div>
 </div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading span.clickable').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>

@@ -1,3 +1,20 @@
 * {
 	border-radius: 0 !important;
 }
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+.row {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+.clickable {
+	cursor: pointer;
+}
+
+.panel {
+	padding-left: 0px;
+	padding-right: 0px;
+}

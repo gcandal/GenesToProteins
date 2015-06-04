@@ -19,10 +19,34 @@ exports.search = {
 exports.getOne = {
     handler: function (request, reply) {
         Gene.find(request.params.geneId).then(function (gene) {
+            var methods = [];
+            for (var m in gene) {
+                if (typeof gene[m] == "function") {
+                    methods.push(m);
+                }
+            }
+            //console.log(methods.join("\n"));
+            //console.log(gene.getGeneTranscripts);
+            //console.log(gene.getThreePrimeProteins);
             if (gene != null) {
                 return reply(gene);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
+        });
+    }
+};
+
+exports.getGeneTranscripts = {
+    handler: function (request, reply) {
+        Gene.find(request.params.geneId).then(function (gene) {
+            if (gene != null) {
+                return reply(gene.getTranscripts());
+            }
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
         });
     }
 };
@@ -33,7 +57,9 @@ exports.create = {
             if (gene != null) {
                 return reply(gene);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
         });
     }
 };
@@ -44,7 +70,9 @@ exports.update = {
             if (gene != null) {
                 return reply(gene);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
         });
     }
 };
@@ -55,7 +83,9 @@ exports.remove = {
             if (gene != null) {
                 return reply(gene);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
         });
     }
 };
