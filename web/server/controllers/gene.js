@@ -3,7 +3,9 @@
 var Joi = require('joi'),
     Boom = require('boom'),
     Models = require('../models/'),
-    Gene = Models.Gene;
+    Gene = Models.Gene,
+    sequelize = Models.sequelize;
+
 
 exports.search = {
     handler: function (request, reply) {
@@ -48,6 +50,27 @@ exports.getGeneTranscripts = {
         }).catch(function (error) {
             reply(Boom.notFound(error));
         });
+    }
+};
+
+exports.getGeneThreePrimes = {
+    handler: function (request, reply) {
+        sequelize.query("select * from threeprimeprotein where GeneEnsembleID = \'" +  request.params.geneId + "\'", { type: sequelize.QueryTypes.SELECT})
+            .then(function(prots) {
+                return reply(prots);
+            }).catch(function (error) {
+                console.log(error);
+                reply(Boom.notFound(error));
+            });
+
+        /*Gene.find(request.params.geneId).then(function (gene) {
+            if (gene != null) {
+                return reply(gene.getThreePrimeProteins());
+            }
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
+        });*/
     }
 };
 

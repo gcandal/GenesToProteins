@@ -16,5 +16,6 @@ exports.endpoints = [
     { method: 'GET', path: '/api/transcript/{transcriptId}', config: Transcript.getOne},
     { method: 'GET', path: '/api/transcriptProteins/{transcriptId}', config: Transcript.getTranscriptProteins},
     { method: 'GET', path: '/api/geneTranscripts/{geneId}', config: Gene.getGeneTranscripts},
+    { method: 'GET', path: '/api/geneThreePrimeProteins/{geneId}', config: Gene.getGeneThreePrimes},
     { method: 'GET', path: '/api/protein/{userId}', config: Protein.getOne}
 ];

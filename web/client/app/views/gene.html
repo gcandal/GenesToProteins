@@ -58,18 +58,18 @@
             </div>
             <div class="panel-body">
                 <span ng-repeat="transcript in transcripts">
-                    <h4>{{transcript['transcriptId']}}</h4>
+                    <button class="btn btn-default" >{{transcript['transcriptId']}}</button>
                     <br>
-                    <h5>Proteins that Connect to this Transcript:
+                    <h5>Proteins that Connect to this Transcript:</h5>
                     <div class="col-md-10 panel panel-default" ng-repeat="protein in proteins[transcript['transcriptId']]">
                         <div class="panel-heading">
-                            <h1 class="panel-title">{{protein[0]['name']}}:</h1>
+                            <h1 class="panel-title">{{protein['Name']}}:</h1>
                             <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tbody>
-                                <tr ng-repeat="(key, value) in protein[0]">
+                                <tr ng-repeat="(key, value) in protein">
                                     <th scope="row">{{key}}</th>
                                     <td>{{value}}</td>
                                 </tr>
@@ -77,6 +77,17 @@
                             </table>
                         </div>
                     </div>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-10 panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">Three Prime Proteins:</h1>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+                <span ng-repeat="threePrimeProtein in threePrimeProteins">
+                    <button class="btn btn-default" type="button" >{{threePrimeProtein['ProteinName']}}</button>
                 </span>
             </div>
         </div>

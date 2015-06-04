@@ -21,8 +21,8 @@ models.forEach(function(model) {
     m.Transcript.belongsToMany(m.Gene, {through: 'GeneTranscript'});
     m.Transcript.belongsToMany(m.Protein, {through: 'TranscriptProtein'});
     m.Protein.belongsToMany(m.Transcript, {through: 'TranscriptProtein'});
-    m.Gene.belongsToMany(m.Protein, {through: 'ThreePrimeProtein'});
-    m.Protein.belongsToMany(m.Gene, {through: 'ThreePrimeProtein'});
+    m.Gene.belongsToMany(m.Protein, {through: 'ThreePrimeProtein', as: 'ThreePrimeProteins'});
+    m.Protein.belongsToMany(m.Gene, {through: 'ThreePrimeProtein', as: 'ThreePrimeProteins'});
 })(module.exports);
 
 sequelize
