@@ -4,17 +4,28 @@ var Joi = require('joi'),
     Boom = require('boom'),
     Models = require('../models/'),
     Gene = Models.Gene,
-    sequelize = Models.sequelize;
+    sequelize = Models.sequelize,
+    Sequelize = require('sequelize');
 
 
-exports.search = {
+exports.searchAll = {
     handler: function (request, reply) {
-        Gene.findAll({ where:  ["ensembleID like \'%" + request.params.geneId + "%\'"]}).then(function (gene) {
-            if (gene != null) {
-                return reply(gene);
-            }
-            return reply(Boom.badImplementation()); // 500 error
-        });
+        var chain = new Sequelize.Utils.QueryChainer();
+
+        console.log('begin');
+
+        chain
+            .add(sequelize.query("select * from genes where GeneEnsembleID = \'" +  request.params.geneId + "\'", { type: sequelize.QueryTypes.SELECT}))
+            .add(sequelize.query("select * from genes where GeneEnsembleID = \'" +  request.params.geneId + "\'", { type: sequelize.QueryTypes.SELECT}))
+            .run()
+            .success(function(results) {
+                res.send({
+                    resultOfQuery1: results[0],
+                    resultOfQuery2: results[1]
+                });
+            }).error(function(err) {
+                console.log('oh no', err);
+            });
     }
 };
 

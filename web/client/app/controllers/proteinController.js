@@ -3,7 +3,7 @@ app.controller('proteinController', [ '$scope', '$http','$location','$routeParam
 
 			$http.get('/api/proteinThreePrimes/' + $routeParams.proteinId).then(function(data) {
 				$scope.threePrimeGenes = data['data'];
-				console.log($scope.threePrimeGenes);
+				//console.log($scope.threePrimeGenes);
 			});
 
 			$http.get('/api/protein/' + $routeParams.proteinId).then(function(result){
