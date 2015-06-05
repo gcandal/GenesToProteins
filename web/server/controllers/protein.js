@@ -28,6 +28,17 @@ exports.getOne = {
     }
 };
 
+exports.getAll = {
+    handler: function (request, reply) {
+        Protein.findAll().then(function (proteins) {
+            if (proteins != null) {
+                return reply(proteins);
+            }
+            return reply(Boom.notFound(''));
+        });
+    }
+};
+
 exports.getProteinTranscripts = {
     handler: function (request, reply) {
         Protein.find(request.params.proteinId).then(function (protein) {

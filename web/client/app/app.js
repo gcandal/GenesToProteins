@@ -2,7 +2,6 @@
 
 var app = angular.module("app", ['ngRoute','ngResource'])
 	.config(function($routeProvider, $locationProvider) {
-		//$locationProvider.html5Mode(true);
 	    $routeProvider
 				.when('/',
 					 {templateUrl: 'app/views/search.html'},
@@ -15,6 +14,12 @@ var app = angular.module("app", ['ngRoute','ngResource'])
 				.when('/gene/:geneId',
 					{templateUrl: 'app/views/gene.html'},
 					{controller: 'controllers/geneController.js'}
+				).when('/listGenes',
+					{templateUrl: 'app/views/listGenes.html'},
+					{controller: 'controllers/listGenesController.js'}
+				).when('/listProteins',
+					{templateUrl: 'app/views/listProteins.html'},
+					{controller: 'controllers/listProteinsController.js'}
 				)
 				.otherwise({redirectTo: '/'});
 	});

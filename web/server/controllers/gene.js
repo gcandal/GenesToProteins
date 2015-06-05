@@ -43,6 +43,22 @@ exports.getOne = {
     }
 };
 
+exports.getAll = {
+    handler: function (request, reply) {
+        Gene.findAll().then(function (gene) {
+            //console.log(methods.join("\n"));
+            //console.log(gene.getGeneTranscripts);
+            //console.log(gene.getThreePrimeProteins);
+            if (gene != null) {
+                return reply(gene);
+            }
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
+        });
+    }
+};
+
 exports.getGeneTranscripts = {
     handler: function (request, reply) {
         Gene.find(request.params.geneId).then(function (gene) {
