@@ -21,18 +21,61 @@
 	</nav>
 
 	<div class="container">
-		<div class="row">
-			<h1>{{name || 'Josefina'}}</h1>
+		<div class="row col-md-11">
+			<h1>{{name}}</h1>
+
 			<div>
 				<table class="table table-hover">
 					<tbody>
-					<tr>
-						<th ng-repeat="(key, value) in protein" scope="row">{{key}}</th>
+					<tr ng-repeat="(key, value) in protein" ng-if="key != null && value != null && value != ''">
+						<th scope="row">{{key}}</th>
 						<td>{{value}}</td>
 					</tr>
 					</tbody>
 				</table>
-		  </div>
+			</div>
+		</div>
+
+		<div class="col-md-10 panel panel-default">
+			<div class="panel-heading">
+				<h1 class="panel-title">Transcripts:</h1>
+				<!--<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>-->
+				<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+			</div>
+			<div class="panel-body">
+                <span ng-repeat="transcript in transcripts">
+                    <button class="btn btn-default" >{{transcript['transcriptId']}}</button>
+                    <br>
+                    <h5>Genes that this Transcript is a part of:</h5>
+                    <div class="col-md-10 panel panel-default" ng-repeat="gene in genes[transcript['transcriptId']]" >
+						<div class="panel-heading">
+							<h1 class="panel-title"><a ng-href="#/gene/{{gene['Ensemble ID']}}">{{gene['Organism']}}:</a></h1>
+						</div>
+						<div class="panel-body">
+							<table class="table table-hover">
+								<tbody>
+								<tr ng-repeat="(key, value) in gene" ng-if="key != 'Organism' && key != null && value != null && value != ''">
+									<th scope="row">{{key}}</th>
+									<td>{{value}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+                </span>
+			</div>
+		</div>
+
+		<div class="col-md-10 panel panel-default" ng-if="threePrimeGenes != undefined && threePrimeGenes != null && threePrimeGenes.length != 0">
+			<div class="panel-heading">
+				<h1 class="panel-title">Connected genes through three prime:</h1>
+				<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+			</div>
+			<div class="panel-body">
+                <span ng-repeat="threePrimeGene in threePrimeGenes">
+                    <button class="btn btn-default" type="button" >{{threePrimeGenes['GeneEnsembleId']}}</button>
+                </span>
+			</div>
 		</div>
 	</div>
 </div>

@@ -41,12 +41,31 @@ exports.getTranscriptProteins = {
                 }
             }
             //console.log(methods.join("\n"));
-            //console.log(transcript.getProteins());
 
-            return reply(transcript.getProteins());
+                return reply(transcript.getProteins());
 
         }).catch(function (error) {
-            console.log(error);
+
+            reply(Boom.notFound(error));
+        });
+    }
+};
+
+exports.getTranscriptGenes = {
+    handler: function (request, reply) {
+        Transcript.find(request.params.transcriptId).then(function (transcript) {
+            var methods = [];
+            for (var m in transcript) {
+                if (typeof transcript[m] == "function") {
+                    methods.push(m);
+                }
+            }
+            //console.log(methods.join("\n"));
+
+            return reply(transcript.getGenes());
+
+        }).catch(function (error) {
+
             reply(Boom.notFound(error));
         });
     }

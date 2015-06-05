@@ -25,25 +25,24 @@ app.controller('geneController', [ '$scope', '$http','$location', '$routeParams'
 				$scope.proteins = {};
 				$scope.transcripts.map(function(transcript) {
 					$http.get('/api/transcriptProteins/'+ transcript['transcriptId']).then(function(result) {
-						if($scope.proteins[transcript['transcriptId']] == null)
-							$scope.proteins[transcript['transcriptId']]= [];
+						console.log(result);
+						for(var i = 0; i < result['data'].length; i++) {
+							if($scope.proteins[transcript['transcriptId']] == null)
+								$scope.proteins[transcript['transcriptId']]= [];
 
+							var tempObj = {};
+							//tempObj['ensembleId'] =
+							delete result['data'][i]['TranscriptProtein'];
+							delete result['data'][i]['createdAt'];
+							delete result['data'][i]['updatedAt'];
+							delete result['data'][i]['pdb_url'];
+							delete result['data'][i]['uniprot_url'];
 
-						delete result['data'][0]['TranscriptProtein'];
-						delete result['data'][0]['createdAt'];
-						delete result['data'][0]['updatedAt'];
-						delete result['data'][0]['pdb_url'];
-						delete result['data'][0]['uniprot_url'];
-
-
-						var tempObj = {};
-						Object.keys(result['data'][0]).forEach(function (key) {
-							//$scope.gene[camelToDash(key)] = data['data'][key];
-							//$scope.proteins[transcript['transcriptId']][camelToDash(key)].push(result['data']);
-							tempObj[underscoreToDash(key)] = result['data'][0][key];
-						});
-						$scope.proteins[transcript['transcriptId']].push(tempObj);
-						//console.log($scope.proteins);
+							Object.keys(result['data'][i]).forEach(function (key) {
+								tempObj[underscoreToDash(key)] = result['data'][i][key];
+							});
+							$scope.proteins[transcript['transcriptId']].push(tempObj);
+						}
 					});
 				});
 			}).catch(function(error){

@@ -61,15 +61,14 @@
                     <button class="btn btn-default" >{{transcript['transcriptId']}}</button>
                     <br>
                     <h5>Proteins that Connect to this Transcript:</h5>
-                    <div class="col-md-10 panel panel-default" ng-repeat="protein in proteins[transcript['transcriptId']]">
+                    <div class="col-md-10 panel panel-default" ng-repeat="protein in proteins[transcript['transcriptId']]" >
                         <div class="panel-heading">
-                            <h1 class="panel-title">{{protein['Name']}}:</h1>
-                            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+                            <h1 class="panel-title"><a ng-href="#/protein/{{protein['Name']}}">{{protein['Name']}}:</a></h1>
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tbody>
-                                <tr ng-repeat="(key, value) in protein">
+                                <tr ng-repeat="(key, value) in protein" ng-if="key != 'Name' && key != null && value != null && value != ''">
                                     <th scope="row">{{key}}</th>
                                     <td>{{value}}</td>
                                 </tr>

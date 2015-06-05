@@ -3,7 +3,8 @@
 var Joi = require('joi'),
     Boom = require('boom'),
     Models = require('../models/'),
-    Protein = Models.protein;
+    sequelize = Models.sequelize,
+    Protein = Models.Protein;
 
 exports.search = {
     handler: function (request, reply) {
@@ -11,92 +12,52 @@ exports.search = {
             if (gene != null) {
                 return reply(gene);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound(''));
         });
     }
 };
 
 exports.getOne = {
     handler: function (request, reply) {
-        Protein.find(request.params.geneId).then(function (gene) {
-            if (gene != null) {
-                return reply(gene);
+        Protein.find(request.params.proteinId).then(function (protein) {
+            if (protein != null) {
+                return reply(protein);
             }
-            return reply(Boom.badImplementation()); // 500 error
+            return reply(Boom.notFound(''));
         });
     }
 };
 
-exports.create = {
-    validate: {
-        payload: {
-            userId   : Joi.string().required(),
-            username  : Joi.string().required()
-        }
-    },
+exports.getProteinTranscripts = {
     handler: function (request, reply) {
-        var user = new User(request.payload);
-        user.save(function (err, user) {
-            if (!err) {
-                return reply(user).created('/user/' + user._id); // HTTP 201
+        Protein.find(request.params.proteinId).then(function (protein) {
+            if (protein != null) {
+                return reply(protein.getTranscripts());
             }
-            if (11000 === err.code || 11001 === err.code) {
-                return reply(Boom.forbidden("please provide another user id, it already exist"));
-            }
-            return reply(Boom.forbidden(err)); // HTTP 403
+            return reply(Boom.notFound('')); // 500 error
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
         });
     }
 };
 
-exports.update = {
-    validate: {
-        payload: {
-            username  : Joi.string().required()
-        }
-    },
+exports.getProteinThreePrimes = {
     handler: function (request, reply) {
-        User.findOne({ 'userId': request.params.userId }, function (err, user) {
-            if (!err) {
-                user.username = request.payload.username;
-                user.save(function (err, user) {
-                    if (!err) {
-                        return reply(user); // HTTP 201
-                    }
-                    if (11000 === err.code || 11001 === err.code) {
-                        return reply(Boom.forbidden("please provide another user id, it already exist"));
-                    }
-                    return reply(Boom.forbidden(err)); // HTTP 403
-                });
-            }
-            else{
-                return reply(Boom.badImplementation(err)); // 500 error
-            }
-        });
-    }
-};
+        sequelize.query("select * from threeprimeprotein where ProteinName = \'" +  request.params.proteinId + "\'", { type: sequelize.QueryTypes.SELECT})
+            .then(function(genes) {
+                return reply(genes);
+            }).catch(function (error) {
+                console.log(error);
+                reply(Boom.notFound(error));
+            });
 
-exports.remove = {
-    handler: function (request, reply) {
-        User.findOne({ 'userId': request.params.userId }, function (err, user) {
-            if (!err && user) {
-                user.remove();
-                return reply({ message: "User deleted successfully"});
-            }
-            if (!err) {
-                return reply(Boom.notFound());
-            }
-            return reply(Boom.badRequest("Could not delete user"));
-        });
-    }
-};
-
-exports.removeAll = {
-    handler: function (request, reply) {
-        mongoose.connection.db.dropCollection('users', function (err, result) {
-            if (!err) {
-                return reply({ message: "User database successfully deleted"});
-            }
-            return reply(Boom.badRequest("Could not delete user"));
-        });
+        /*Gene.find(request.params.geneId).then(function (gene) {
+         if (gene != null) {
+         return reply(gene.getThreePrimeProteins());
+         }
+         return reply(Boom.notFound('')); // 500 error
+         }).catch(function (error) {
+         reply(Boom.notFound(error));
+         });*/
     }
 };
