@@ -1,12 +1,67 @@
-<div data-ng-controller="searchController">
-	<h1 style="margin-left: 35%; margin-top: 15%">Search our database!</h1>
+<div class="container" data-ng-controller="searchController">
+	<h1 ng-class="{'panel-animation': searchDone}" style="margin-left: 35%; margin-top: 15%">Search our database!</h1>
 
-	<div class="" style="margin-left: 20%">
-		<select style="width: 120px;" class="form-control col-md-2" id="sel1">
+	<div class="" style="margin-left: 20%; margin-bottom: 20px">
+		<!--<select style="width: 120px;" class="form-control col-md-2" id="sel1">
 			<option>Genes</option>
 			<option>Proteins</option>
-		</select>
-		<input	style="width: 50%" ng-model="string" class="form-control col-md-6" required="string" ng-required="true" type="text"/>
-		<button type="submit" class="btn btn-default">Submit</button>
+		</select>-->
+		<input	ng-model="name" style="width: 60%" ng-model="string" class="form-control col-md-6" required="string" ng-required="true" type="text"/>
+		<button type="submit" ng-click="search(name)" class="btn btn-default">Submit</button>
+	</div>
+	<div ng-if="genes.length > 0 && searchDone" class="col-md-12 panel panel-default">
+		<div class="panel-heading">
+			<h1 class="panel-title">Genes Found:</h1>
+			<span onclick="panelOpen(this)" class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+		</div>
+		<div class="panel-body">
+			<table class="table table-hover">
+				<thead>
+				<tr>
+					<th ng-repeat="(key, value) in genes[0]">{{key}}</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr ng-repeat="gene in genes">
+					<td ng-repeat="(key, value) in gene"><a class="search" ng-href="#/gene/{{gene['Ensemble ID']}}">{{value}}</a></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div ng-if="proteins.length > 0 && searchDone" class="col-md-12 panel panel-default">
+		<div class="panel-heading">
+			<h1 class="panel-title">Proteins Found:</h1>
+			<span onclick="panelOpen(this)" class="pull-right clickable"><i onclick="" class="glyphicon glyphicon-chevron-up"></i></span>
+		</div>
+		<div class="panel-body">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th ng-repeat="(key, value) in proteins[0]">{{key}}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="protein in proteins">
+						<td ng-repeat="(key, value) in protein"><a class="search" ng-href="#/protein/{{protein['Name']}}">{{value}}</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
+
+
+<script type="text/javascript">
+	function panelOpen(element) {
+		if ($(element).hasClass('panel-collapsed')) {
+			$(element).parents('.panel').find('.panel-body').slideDown();
+			$(element).removeClass('panel-collapsed');
+			$(element).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+		} else {
+			$(element).parents('.panel').find('.panel-body').slideUp();
+			$(element).addClass('panel-collapsed');
+			$(element).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+		}
+	}
+</script>

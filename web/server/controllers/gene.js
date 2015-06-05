@@ -8,24 +8,16 @@ var Joi = require('joi'),
     Sequelize = require('sequelize');
 
 
-exports.searchAll = {
+exports.search = {
     handler: function (request, reply) {
-        var chain = new Sequelize.Utils.QueryChainer();
-
-        console.log('begin');
-
-        chain
-            .add(sequelize.query("select * from genes where GeneEnsembleID = \'" +  request.params.geneId + "\'", { type: sequelize.QueryTypes.SELECT}))
-            .add(sequelize.query("select * from genes where GeneEnsembleID = \'" +  request.params.geneId + "\'", { type: sequelize.QueryTypes.SELECT}))
-            .run()
-            .success(function(results) {
-                res.send({
-                    resultOfQuery1: results[0],
-                    resultOfQuery2: results[1]
-                });
-            }).error(function(err) {
-                console.log('oh no', err);
-            });
+        Gene.findAll({ where:  ["ensembleID like \'%" + request.params.name + "%\' OR organism like \'%" + request.params.name + "%\'"]}).then(function (gene) {
+            if (gene != null) {
+                return reply(gene);
+            }
+            return reply(Boom.notFound(''));
+        }).catch(function (error) {
+            reply(Boom.notFound(error));
+        });
     }
 };
 

@@ -10,8 +10,8 @@ var Gene = require('./controllers/gene'),
 // API Server Endpoints
 exports.endpoints = [
     { method: 'GET',  path: '/{somethingss*}', config: Static.get },
-    { method: 'GET', path: '/api/searchGenes/{stringG}', config: Gene.search},
-    { method: 'GET', path: '/api/searchProtein/{stringP}', config: Protein.search},
+    { method: 'GET', path: '/api/searchGenes/{name}', config: Gene.search},
+    { method: 'GET', path: '/api/searchProtein/{name}', config: Protein.search},
     { method: 'GET', path: '/api/gene/{geneId}', config: Gene.getOne},
     { method: 'GET', path: '/api/transcript/{transcriptId}', config: Transcript.getOne},
     { method: 'GET', path: '/api/transcriptProteins/{transcriptId}', config: Transcript.getTranscriptProteins},

@@ -2,6 +2,11 @@
 	border-radius: 0 !important;
 }
 
+@keyframes toTop {
+	0%   { margin-top: 15%}
+	100% { margin-top: 2%}
+}
+
 .panel-heading span {
 	margin-top: -20px;
 	font-size: 15px;
@@ -17,4 +22,21 @@
 .panel {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.panel-animation {
+	animation-name: toTop;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+a.search {
+	color: #2C3E50;
+	text-decoration: none; !important;
+}
+
+a:hover.search
+{
+	color:#2C3E50;
+	text-decoration:none; !important;
 }

@@ -8,7 +8,7 @@ var Joi = require('joi'),
 
 exports.search = {
     handler: function (request, reply) {
-        Protein.findAll({ where:  ["proteinID like \'%" + request.params.geneId + "%\'"]}).then(function (gene) {
+        Protein.findAll({ where:  ["name like \'%" + request.params.name + "%\'"]}).then(function (gene) {
             if (gene != null) {
                 return reply(gene);
             }
