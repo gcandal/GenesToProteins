@@ -219,11 +219,7 @@ def move_organism_up(genes):
                     protein.pop('organism')
 
 
-def full_process(filename):
-    gene_ids = read_ensemble_gene_ids(filename)
-    # gene_ids = [gene_ids[0]]
-    print 'Got IDs'
-
+def full_process(gene_ids):
     genes = get_ensemble_transcripts_for_list(gene_ids)
     print 'Got Transcripts'
 
@@ -238,7 +234,7 @@ def full_process(filename):
     return genes
 
 
-final = full_process('genes.ensemble')
+final = full_process(read_ensemble_gene_ids('genes.ensemble'))
 # print json.dumps(final)
 with open('teste.json', 'w') as data_output:
     data_output.write(json.dumps(final))
