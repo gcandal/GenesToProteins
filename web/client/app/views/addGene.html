@@ -26,6 +26,7 @@
 	</div>
 </nav>
 <div class="container" data-ng-controller="addGeneController">
+	<div ng-repeat="notification in notifications" class="alert alert-danger" role="alert">{{notification}}</div>
 
 	<h3 style="margin-left: 20%; margin-top: 15%">Enter the EnsembleID of the gene you want to add</h3>
 

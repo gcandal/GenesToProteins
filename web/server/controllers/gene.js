@@ -85,6 +85,10 @@ exports.addGene = {
         PythonShell.run('scraping.py', options, function (err, results) {
             if (err) throw err;
             // results is an array consisting of messages collected during execution
+            if(results[0] = '0')
+                reply(true);
+            else
+                reply(false);
             console.log('results: %j', results);
         });
         /*var python = child.spawn('python', __dirname + "../../scraping.py", request.params.geneId);
