@@ -22,5 +22,6 @@ exports.endpoints = [
     { method: 'GET', path: '/api/protein/{proteinId}', config: Protein.getOne},
     { method: 'GET', path: '/api/getAllProteins', config: Protein.getAll},
     { method: 'GET', path: '/api/proteinThreePrimes/{proteinId}', config: Protein.getProteinThreePrimes},
-    { method: 'GET', path: '/api/proteinTranscripts/{proteinId}', config: Protein.getProteinTranscripts}
+    { method: 'GET', path: '/api/proteinTranscripts/{proteinId}', config: Protein.getProteinTranscripts},
+    { method: 'GET', path: '/api/addGene/{geneId}', config: Gene.addGene}
 ];

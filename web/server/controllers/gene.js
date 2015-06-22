@@ -5,7 +5,8 @@ var Joi = require('joi'),
     Models = require('../models/'),
     Gene = Models.Gene,
     sequelize = Models.sequelize,
-    Sequelize = require('sequelize');
+    Sequelize = require('sequelize'),
+    PythonShell = require('python-shell');
 
 
 exports.search = {
@@ -69,6 +70,34 @@ exports.getGeneTranscripts = {
         }).catch(function (error) {
             reply(Boom.notFound(error));
         });
+    }
+};
+
+exports.addGene = {
+    handler: function (request, reply) {
+        var options = {
+            mode: 'text',
+            pythonPath: '/usr/bin/python2.7',
+            scriptPath: '../../',
+            args: [request.params.geneId]
+        };
+
+        PythonShell.run('scraping.py', options, function (err, results) {
+            if (err) throw err;
+            // results is an array consisting of messages collected during execution
+            console.log('results: %j', results);
+        });
+        /*var python = child.spawn('python', __dirname + "../../scraping.py", request.params.geneId);
+        var output = "";
+        python.stdout.on('data', function() {
+            output += data
+        });
+        python.on('close', function(code){
+            /*if (code !== 0) {
+                reply(Boom.notFound());
+            }
+            reply(output);
+        });*/
     }
 };
 

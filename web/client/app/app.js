@@ -20,6 +20,9 @@ var app = angular.module("app", ['ngRoute','ngResource'])
 				).when('/listProteins',
 					{templateUrl: 'app/views/listProteins.html'},
 					{controller: 'controllers/listProteinsController.js'}
+				).when('/addGene',
+					{templateUrl: 'app/views/addGene.html'},
+					{controller: 'controllers/addGene.js'}
 				)
 				.otherwise({redirectTo: '/'});
 	});
