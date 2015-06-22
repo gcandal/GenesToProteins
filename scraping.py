@@ -2,6 +2,7 @@ from BeautifulSoup import BeautifulSoup
 import urllib
 import urllib2
 import json
+import sys
 
 '''
 campos da tabela  "Family Domains"
@@ -220,6 +221,8 @@ def move_organism_up(genes):
 
 
 def full_process(gene_ids):
+    # gene_ids = [gene_ids[0]]
+
     genes = get_ensemble_transcripts_for_list(gene_ids)
     print 'Got Transcripts'
 
@@ -234,14 +237,25 @@ def full_process(gene_ids):
     return genes
 
 
-final = full_process(read_ensemble_gene_ids('genes.ensemble'))
-# print json.dumps(final)
-with open('teste.json', 'w') as data_output:
-    data_output.write(json.dumps(final))
-    data_output.close()
+if __name__ == "__main__":
+    infilename = "genes.ensemble"
+    outfilename = "teste.json"
 
-'''
-with open('teste.json') as data_file:
-    data = json.load(data_file)
-    print json.dumps(data)
-'''
+    if len(sys.argv) > 1:
+        final = full_process([str(sys.argv[1])])
+    else:
+        final = full_process(read_ensemble_gene_ids(infilename))
+
+    print json.dumps(final)
+
+    '''
+    with open(outfilename, 'w') as data_output:
+        data_output.write(json.dumps(final))
+        data_output.close()
+    '''
+
+    '''
+    with open('teste.json') as data_file:
+        data = json.load(data_file)
+        print json.dumps(data)
+    '''
