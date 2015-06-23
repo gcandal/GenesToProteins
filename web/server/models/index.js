@@ -26,9 +26,18 @@ models.forEach(function(model) {
 })(module.exports);
 
 sequelize
-.sync({    force: true})
-//    .sync()
+//.sync({    force: true})
+    .sync()
     .then(syncSuccess, syncError);
+
+var exec = require('child_process').exec;
+exec('../../C/bin/transform -both ../../proteinDatabase.db ./csvs', function(error, stdout, stderr) {
+    console.log('stdout: ', stdout);
+    console.log('stderr: ', stderr);
+    if (error !== null) {
+        console.log('exec error: ', error);
+    }
+});
 
 function syncSuccess() {
     console.log('Succesfully synced DB!');

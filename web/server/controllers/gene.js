@@ -144,6 +144,16 @@ exports.getCSV = {
                 reply(false);
             console.log('results: %j', results);
         });
+
+        var exec = require('child_process').exec;
+        exec('../../C/bin/transform -both ../../proteinDatabase.db ./csvs', function(error, stdout, stderr) {
+            console.log('stdout: ', stdout);
+            console.log('stderr: ', stderr);
+            if (error !== null) {
+                console.log('exec error: ', error);
+            }
+        });
+
         /*var python = child.spawn('python', __dirname + "../../scraping.py", request.params.geneId);
          var output = "";
          python.stdout.on('data', function() {

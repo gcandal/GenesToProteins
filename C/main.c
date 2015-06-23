@@ -74,8 +74,8 @@ int main(int argc, const char * argv[]) {
     
     
     
-    int result = sqlite3_open_v2(db_param, &dbHandle, SQLITE_OPEN_READONLY, NULL);
-    printf("%i\n", result);
+    int result = sqlite3_open(db_param, &dbHandle);
+    printf("%i\n", sqlite3_extended_errcode(dbHandle));
     if (result != SQLITE_OK) {
         printf("Specified File is not a proper db!\n");
         return -2;
@@ -111,8 +111,7 @@ int main(int argc, const char * argv[]) {
     while((tableName=tables[index++]) != NULL){
         
         
-        char filePath[fileNameBuffSize];
-        
+        char filePath[fileNameBuffSize];   
 
         
         
@@ -233,7 +232,7 @@ column_list columns_getAll(name tableName){
         // retrieve the value of the first column (0-based)
         const unsigned char * colName = sqlite3_column_text(statement, 1);
         
-        char * colNameCopy = malloc(strlen((char *)tableName)*sizeof(char));//alloc array
+        char * colNameCopy = malloc(256);//alloc array
         
         
         strcpy(colNameCopy,(char *)colName);
