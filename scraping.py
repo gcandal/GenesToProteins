@@ -140,7 +140,7 @@ def get_ensemble_transcripts(gene):
     transcripts_table = gene_page.find(id='transcripts_table')
 
     if not transcripts_table:
-        #print 'http://www.ensembl.org/Gene/Summary?db=core;g=' + gene + " - Nao tem ID na tabela ou nao tem tabela"
+        # print 'http://www.ensembl.org/Gene/Summary?db=core;g=' + gene + " - Nao tem ID na tabela ou nao tem tabela"
         return []
 
     transcripts_table_rows = transcripts_table.tbody.findChildren('tr')
@@ -185,8 +185,8 @@ def get_ensemble_three_prime_for_list(genes):
     for gene in genes:
         if gene['transcripts']:
             gene['three_prime'] = get_ensemble_three_prime(gene['transcripts'][0]['transcript_url'])
-        #else:
-            #print "Missing transcripts for " + gene['gene']
+            # else:
+            # print "Missing transcripts for " + gene['gene']
 
 
 def get_proteins_for_three_prime(three_prime):
@@ -207,8 +207,8 @@ def add_three_prime_proteins_for_list(genes):
     for gene in genes:
         if 'three_prime' in gene:
             gene['three_prime_proteins'] = get_proteins_for_three_prime(gene['three_prime'])
-        #else:
-            #print "Missing three_prime for " + gene['gene']
+            # else:
+            # print "Missing three_prime for " + gene['gene']
 
 
 def move_organism_up(genes):
@@ -227,15 +227,15 @@ def full_process(gene_ids):
     # gene_ids = [gene_ids[0]]
 
     genes = get_ensemble_transcripts_for_list(gene_ids)
-    #print 'Got Transcripts'
+    # print 'Got Transcripts'
 
     move_organism_up(genes)
 
     get_ensemble_three_prime_for_list(genes)
-    #print 'Got ThreePrimes'
+    # print 'Got ThreePrimes'
 
     add_three_prime_proteins_for_list(genes)
-    #print 'Got ThreePrime Proteins'
+    # print 'Got ThreePrime Proteins'
 
     return genes
 
@@ -245,20 +245,23 @@ if __name__ == "__main__":
     outfilename = "teste.json"
 
     single = False
-    if len(sys.argv) > 1:
-        single = True
-        final = full_process([str(sys.argv[1])])
-    else:
-        final = full_process(read_ensemble_gene_ids(infilename))
+    try:
+        if len(sys.argv) > 1:
+            single = True
+            final = full_process([str(sys.argv[1])])
+        else:
+            final = full_process(read_ensemble_gene_ids(infilename))
+    except:
+        final = []
 
-    #print json.dumps(final)
+    # print json.dumps(final)
 
     if not single:
         with open(outfilename, 'w') as data_output:
             data_output.write(json.dumps(final))
             data_output.close()
     else:
-        if 'gene' in final and len(final['gene']["transcripts"]) > 0:
+        if len(final) > 0 and len(final[0]["transcripts"]) > 0:
             con = None
             try:
                 con = sqlite3.connect('../../proteinDatabase.db')
@@ -266,21 +269,39 @@ if __name__ == "__main__":
                 with con:
                     cur = con.cursor()
                     for gene in data:
-                        cur.execute("INSERT OR IGNORE INTO Genes VALUES(?, ?, ?, ?, ?)", (gene['gene'], gene.get('organism') , gene.get('three_prime') , time.strftime("%H:%M:%S") , time.strftime("%H:%M:%S")))
+                        cur.execute("INSERT OR IGNORE INTO Genes VALUES(?, ?, ?, ?, ?)", (
+                            gene['gene'], gene.get('organism'), gene.get('three_prime'), time.strftime("%H:%M:%S"),
+                            time.strftime("%H:%M:%S")))
                         for transcripts in gene['transcripts']:
-                            cur.execute("INSERT OR IGNORE INTO Transcripts VALUES(?, ?, ?, ?)", (transcripts['transcript'],transcripts['transcript_url'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
+                            cur.execute("INSERT OR IGNORE INTO Transcripts VALUES(?, ?, ?, ?)", (
+                                transcripts['transcript'], transcripts['transcript_url'], time.strftime("%H:%M:%S"),
+                                time.strftime("%H:%M:%S")))
                             if transcripts['protein'].get('name'):
-                                cur.execute("INSERT OR IGNORE INTO Proteins VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)" ,
-                                            (transcripts['protein']['name'], transcripts['protein']['uniprot_url'], transcripts['protein']['pdb_url'],
-                                             transcripts['protein']['names_and_taxonomy']['taxonomic_lineage'], transcripts['protein']['names_and_taxonomy']['organism'],
-                                             transcripts['protein']['names_and_taxonomy']['protein_names'], transcripts['protein']['names_and_taxonomy']['taxonomic_identifier'],
-                                             transcripts['protein']['names_and_taxonomy']['proteomes'][0], transcripts['protein']['interactions'],
-                                             transcripts['protein']['keywords_molecular_function'], transcripts['protein']['keywords_ligand'],
-                                             transcripts['protein']['keywords_biological_process'], time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S")))
-                                cur.execute("INSERT OR IGNORE INTO GeneTranscript VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['transcript'], gene['gene']))
-                                cur.execute("INSERT OR IGNORE INTO TranscriptProtein VALUES(?,?,?,?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['protein']['name'], transcripts['transcript']))
+                                cur.execute(
+                                    "INSERT OR IGNORE INTO Proteins VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                                    (transcripts['protein']['name'], transcripts['protein']['uniprot_url'],
+                                     transcripts['protein']['pdb_url'],
+                                     transcripts['protein']['names_and_taxonomy']['taxonomic_lineage'],
+                                     transcripts['protein']['names_and_taxonomy']['organism'],
+                                     transcripts['protein']['names_and_taxonomy']['protein_names'],
+                                     transcripts['protein']['names_and_taxonomy']['taxonomic_identifier'],
+                                     transcripts['protein']['names_and_taxonomy']['proteomes'][0],
+                                     transcripts['protein']['interactions'],
+                                     transcripts['protein']['keywords_molecular_function'],
+                                     transcripts['protein']['keywords_ligand'],
+                                     transcripts['protein']['keywords_biological_process'], time.strftime("%H:%M:%S"),
+                                     time.strftime("%H:%M:%S")))
+                                cur.execute("INSERT OR IGNORE INTO GeneTranscript VALUES(?, ?, ?, ?)", (
+                                    time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), transcripts['transcript'],
+                                    gene['gene']))
+                                cur.execute("INSERT OR IGNORE INTO TranscriptProtein VALUES(?,?,?,?)", (
+                                    time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"),
+                                    transcripts['protein']['name'],
+                                    transcripts['transcript']))
                             for three_prime_protein in gene['three_prime_proteins']:
-                                cur.execute("INSERT OR IGNORE INTO ThreePrimeProtein VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), three_prime_protein, gene['gene']))
+                                cur.execute("INSERT OR IGNORE INTO ThreePrimeProtein VALUES(?, ?, ?, ?)", (
+                                    time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), three_prime_protein,
+                                    gene['gene']))
 
                     print '0'
             except sqlite3.Error, e:
