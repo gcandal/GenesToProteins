@@ -22,7 +22,10 @@ var app = angular.module("app", ['ngRoute','ngResource'])
 					{controller: 'controllers/listProteinsController.js'}
 				).when('/addGene',
 					{templateUrl: 'app/views/addGene.html'},
-					{controller: 'controllers/addGene.js'}
+					{controller: 'controllers/addGeneController.js'}
+				).when('/getCSV',
+					{templateUrl: 'app/views/getCSV.html'},
+					{controller: 'controllers/getCSVController.js'}
 				)
 				.otherwise({redirectTo: '/'});
 	});

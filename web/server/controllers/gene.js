@@ -128,42 +128,22 @@ exports.getGeneThreePrimes = {
 
 exports.getCSV = {
     handler: function (request, reply) {
-        var options = {
-            mode: 'text',
-            pythonPath: '/usr/bin/python2.7',
-            scriptPath: '../../',
-            args: [request.params.geneId]
-        };
+        var table = request.params.table;
+        var type = request.params.type;
+        var filepath = './csvs/';
 
-        PythonShell.run('scraping.py', options, function (err, results) {
-            if (err) throw err;
-            // results is an array consisting of messages collected during execution
-            if(results[0] == '0')
-                reply(true);
-            else
-                reply(false);
-            console.log('results: %j', results);
-        });
+        if(type == 'csv')
+            filepath = filepath + table + '.csv';
+        else if (type == 'prolog')
+            filepath = filepath + table + '.prolog';
+        console.log(filepath);
 
-        var exec = require('child_process').exec;
-        exec('../../C/bin/transform -both ../../proteinDatabase.db ./csvs', function(error, stdout, stderr) {
-            console.log('stdout: ', stdout);
-            console.log('stderr: ', stderr);
-            if (error !== null) {
-                console.log('exec error: ', error);
-            }
-        });
-
-        /*var python = child.spawn('python', __dirname + "../../scraping.py", request.params.geneId);
-         var output = "";
-         python.stdout.on('data', function() {
-         output += data
-         });
-         python.on('close', function(code){
-         /*if (code !== 0) {
-         reply(Boom.notFound());
-         }
-         reply(output);
-         });*/
+        return reply.file(filepath,   {mode: 'attachment' });
     }
+    /*handler: {
+        file: {
+            path: './csvs/Proteins.prolog',
+            mode: 'attachment' // specify the Content-Disposition is an attachment
+        }
+    }*/
 };

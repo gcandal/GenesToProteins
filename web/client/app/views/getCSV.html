@@ -10,8 +10,8 @@
 		</ul>
 
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#/getCSV">Get CSV or Prolog file</a></li>
-			<li class="active" ><a href="#/addGene">Add a new Gene</a></li>
+			<li class="active"><a href="#/getCSV">Get CSV or Prolog file</a></li>
+			<li><a href="#/addGene">Add a new Gene</a></li>
 			<!--<select style="width: 120px; position: relative; top: 10px" class="form-control col-md-2" id="sel1">
                 <option>Genes</option>
                 <option>Proteins</option>
@@ -26,17 +26,20 @@
 		</ul>
 	</div>
 </nav>
-<div class="container" data-ng-controller="addGeneController">
+<div class="container" data-ng-controller="getCSVController">
 	<div ng-repeat="notification in notifications" class="alert alert-danger" role="alert">{{notification}}</div>
 
-	<h3 style="margin-left: 20%; margin-top: 15%">Enter the EnsembleID of the gene you want to add</h3>
+	<h3 style="margin-left: 20%; margin-top: 15%">Select the type of file you want</h3>
 
 	<div class="" style="margin-left: 20%; margin-bottom: 20px">
-		<!--<select style="width: 120px;" class="form-control col-md-2" id="sel1">
+		<select ng-model="type" style="width: 120px;" class="form-control col-md-2" id="sel1">
+			<option>prolog</option>
+			<option>csv</option>
+		</select>
+		<select ng-model="table" style="width: 120px;" class="form-control col-md-2" id="sel1">
 			<option>Genes</option>
 			<option>Proteins</option>
-		</select>-->
-		<input	ng-model="name" style="width: 60%" ng-model="string" class="form-control col-md-6" required="string" ng-required="true" type="text"/>
-		<button type="submit" ng-click="addGene(name)" class="btn btn-default">Submit</button>
+		</select>
+		<a ng-href="{{ '/api/getCSV/' + table +'/' + type}}"><button class="btn btn-default">Download</button></a>
 	</div>
 </div>
