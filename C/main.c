@@ -14,8 +14,6 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-
-
 #define tablesQuery "SELECT name FROM sqlite_master WHERE type='table';"
 #define columnsQuery "PRAGMA table_info(%s);"
 #define tablesArraySize 100
@@ -69,17 +67,15 @@ void prolog_write_rows(name relationName,char * selectString,FILE *f);
 int main(int argc, const char * argv[]) {
     
     
-    if(argc != 4){
-        
+    if(argc != 4){        
         printf("Wrong Number of Parameters!\n");
-        return -1;
-        
+        return -1;        
     }
     
     
     
     int result = sqlite3_open_v2(db_param, &dbHandle, SQLITE_OPEN_READONLY, NULL);
-    
+    printf("%i\n", result);
     if (result != SQLITE_OK) {
         printf("Specified File is not a proper db!\n");
         return -2;

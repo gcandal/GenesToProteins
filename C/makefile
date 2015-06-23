@@ -3,7 +3,7 @@ clean:
 	rm -f -r $(BIN_DIR)
 make: clean
 	mkdir $(BIN_DIR)
-	gcc -o transform main.c -l sqlite3.0
+	gcc -o transform main.c -lsqlite3
 	mv transform $(BIN_DIR)/transform
 
 run:

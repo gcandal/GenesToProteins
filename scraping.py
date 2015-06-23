@@ -255,7 +255,6 @@ if __name__ == "__main__":
         final = []
 
     # print json.dumps(final)
-
     if not single:
         with open(outfilename, 'w') as data_output:
             data_output.write(json.dumps(final))
@@ -303,15 +302,16 @@ if __name__ == "__main__":
                                     time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), three_prime_protein,
                                     gene['gene']))
 
-                    print '0'
+                    print 0
             except sqlite3.Error, e:
-                print "Error %s:" % e.args[0]
+                print -1
+                # print "Error %s:" % e.args[0]
             finally:
                 if con:
                     con.commit()
                     con.close()
         else:
-            print '1'
+            print 1
 
     '''
     with open('teste.json') as data_file:

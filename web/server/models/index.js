@@ -26,8 +26,8 @@ models.forEach(function(model) {
 })(module.exports);
 
 sequelize
-//.sync({    force: true})
-    .sync()
+.sync({    force: true})
+//    .sync()
     .then(syncSuccess, syncError);
 
 function syncSuccess() {

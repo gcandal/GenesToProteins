@@ -3,7 +3,6 @@ import sys
 import json
 import time
 
-
 con = None
 
 try:
@@ -33,15 +32,10 @@ try:
                     for three_prime_protein in gene['three_prime_proteins']:
                         #print json.dumps(three_prime_protein, indent=4, sort_keys=True)
                         cur.execute("INSERT OR IGNORE INTO ThreePrimeProtein VALUES(?, ?, ?, ?)", (time.strftime("%H:%M:%S"), time.strftime("%H:%M:%S"), three_prime_protein, gene['gene']))
-
-
-
-
 except sqlite3.Error, e:
     print "Error %s:" % e.args[0]
     sys.exit(1)
 finally:
-
     if con:
         con.commit()
         con.close()
