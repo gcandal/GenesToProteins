@@ -85,9 +85,17 @@ exports.addGene = {
         PythonShell.run('scraping.py', options, function (err, results) {
             if (err) throw err;
             // results is an array consisting of messages collected during execution
-            if(results[0] == '0')
+            if(results[0] == '0') {
+                var exec = require('child_process').exec;
+                exec('../../C/bin/transform -both ../../proteinDatabase.db ./csvs', function(error, stdout, stderr) {
+                    console.log('stdout: ', stdout);
+                    console.log('stderr: ', stderr);
+                    if (error !== null) {
+                        console.log('exec error: ', error);
+                    }
+                });
                 reply(true);
-            else
+            } else
                 reply(false);
             console.log('results: %j', results);
         });
